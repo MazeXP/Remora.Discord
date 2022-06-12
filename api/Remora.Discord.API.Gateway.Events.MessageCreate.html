@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MessageCreate
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MessageCreate
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.API.Gateway.Events.MessageCreate">
+  
+  
+  <h1 id="Remora_Discord_API_Gateway_Events_MessageCreate" data-uid="Remora.Discord.API.Gateway.Events.MessageCreate" class="text-break">Class MessageCreate
+  </h1>
+  <div class="markdown level0 summary"><p>Represents the creation of a message.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="Remora.Discord.API.Objects.Message.html">Message</a></div>
+    <div class="level2"><span class="xref">MessageCreate</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Remora.Discord.API.Objects.Message.html">Message</a>&gt;</div>
+    <div><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageCreate.html">IMessageCreate</a></div>
+    <div><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGatewayEvent.html">IGatewayEvent</a></div>
+    <div><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.IGatewayPayloadData.html">IGatewayPayloadData</a></div>
+    <div><a class="xref" href="Remora.Discord.API.Abstractions.Objects.IMessage.html">IMessage</a></div>
+    <div><a class="xref" href="Remora.Discord.API.Abstractions.Objects.IPartialMessage.html">IPartialMessage</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Remora.Discord.API.Gateway.Events.MessageCreate.html">MessageCreate</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_ID">Message.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_ChannelID">Message.ChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_GuildID">Message.GuildID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Author">Message.Author</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Member">Message.Member</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Content">Message.Content</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Timestamp">Message.Timestamp</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_EditedTimestamp">Message.EditedTimestamp</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_IsTTS">Message.IsTTS</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_MentionsEveryone">Message.MentionsEveryone</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Mentions">Message.Mentions</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_MentionedRoles">Message.MentionedRoles</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_MentionedChannels">Message.MentionedChannels</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Attachments">Message.Attachments</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Embeds">Message.Embeds</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Reactions">Message.Reactions</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Nonce">Message.Nonce</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_IsPinned">Message.IsPinned</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_WebhookID">Message.WebhookID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Type">Message.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Activity">Message.Activity</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Application">Message.Application</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_ApplicationID">Message.ApplicationID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_MessageReference">Message.MessageReference</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Flags">Message.Flags</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_ReferencedMessage">Message.ReferencedMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Interaction">Message.Interaction</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Thread">Message.Thread</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_Components">Message.Components</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Objects.Message.html#Remora_Discord_API_Objects_Message_StickerItems">Message.StickerItems</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Remora.Discord.API.Gateway.Events.html">Remora.Discord.API.Gateway.Events</a></h6>
+  <h6><strong>Assembly</strong>: Remora.Discord.API.dll</h6>
+  <h5 id="Remora_Discord_API_Gateway_Events_MessageCreate_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public class MessageCreate : Message, IEquatable&lt;Message&gt;, IMessageCreate, IGatewayEvent, IGatewayPayloadData, IMessage, IPartialMessage, IEquatable&lt;MessageCreate&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Gateway_Events_MessageCreate__ctor_Remora_Rest_Core_Snowflake_Remora_Rest_Core_Snowflake_Remora_Rest_Core_Optional_Remora_Rest_Core_Snowflake__Remora_Discord_API_Abstractions_Objects_IUser_Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IPartialGuildMember__System_String_System_DateTimeOffset_System_Nullable_System_DateTimeOffset__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IUserMention__System_Collections_Generic_IReadOnlyList_Remora_Rest_Core_Snowflake__Remora_Rest_Core_Optional_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IChannelMention___System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IAttachment__System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IEmbed__Remora_Rest_Core_Optional_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IReaction___Remora_Rest_Core_Optional_System_String__System_Boolean_Remora_Rest_Core_Optional_Remora_Rest_Core_Snowflake__Remora_Discord_API_Abstractions_Objects_MessageType_Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IMessageActivity__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IPartialApplication__Remora_Rest_Core_Optional_Remora_Rest_Core_Snowflake__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IMessageReference__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_MessageFlags__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IMessage__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IMessageInteraction__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IChannel__Remora_Rest_Core_Optional_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IMessageComponent___Remora_Rest_Core_Optional_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IStickerItem___.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Gateway.Events.MessageCreate.%23ctor(Remora.Rest.Core.Snowflake%2CRemora.Rest.Core.Snowflake%2CRemora.Rest.Core.Optional%7BRemora.Rest.Core.Snowflake%7D%2CRemora.Discord.API.Abstractions.Objects.IUser%2CRemora.Rest.Core.Optional%7BRemora.Discord.API.Abstractions.Objects.IPartialGuildMember%7D%2CSystem.String%2CSystem.DateTimeOffset%2CSystem.Nullable%7BSystem.DateTimeOffset%7D%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Collections.Generic.IReadOnlyList%7BRemora.Discord.API.Abstractions.Objects.IUserMention%7D%2CSystem.Collections.Generic.IReadOnlyList%7BRemora.Rest.Core.Snowflake%7D%2CRemora.Rest.Core.Optional%7BSystem.Collections.Generic.IReadOnlyList%7BRemora.Discord.API.Abstractions.Objects.IChannelMention%7D%7D%2CSystem.Collections.Generic.IReadOnlyList%7BRemora.Discord.API.Abstractions.Objects.IAttachment%7D%2CSystem.Collections.Generic.IReadOnlyList%7BRemora.Discord.API.Abstractions.Objects.IEmbed%7D%2CRemora.Rest.Core.Optional%7BSystem.Collections.Generic.IReadOnlyList%7BRemora.Discord.API.Abstractions.Objects.IReaction%7D%7D%2CRemora.Rest.Core.Optional%7BSystem.String%7D%2CSystem.Boolean%2CRemora.Rest.Core.Optional%7BRemora.Rest.Core.Snowflake%7D%2CRemora.Discord.API.Abstractions.Objects.MessageType%2CRemora.Rest.Core.Optional%7BRemora.Discord.API.Abstractions.Objects.IMessageActivity%7D%2CRemora.Rest.Core.Optional%7BRemora.Discord.API.Abstractions.Objects.IPartialApplication%7D%2CRemora.Rest.Core.Optional%7BRemora.Rest.Core.Snowflake%7D%2CRemora.Rest.Core.Optional%7BRemora.Discord.API.Abstractions.Objects.IMessageReference%7D%2CRemora.Rest.Core.Optional%7BRemora.Discord.API.Abstractions.Objects.MessageFlags%7D%2CRemora.Rest.Core.Optional%7BRemora.Discord.API.Abstractions.Objects.IMessage%7D%2CRemora.Rest.Core.Optional%7BRemora.Discord.API.Abstractions.Objects.IMessageInteraction%7D%2CRemora.Rest.Core.Optional%7BRemora.Discord.API.Abstractions.Objects.IChannel%7D%2CRemora.Rest.Core.Optional%7BSystem.Collections.Generic.IReadOnlyList%7BRemora.Discord.API.Abstractions.Objects.IMessageComponent%7D%7D%2CRemora.Rest.Core.Optional%7BSystem.Collections.Generic.IReadOnlyList%7BRemora.Discord.API.Abstractions.Objects.IStickerItem%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API/API/Gateway/Events/Messages/MessageCreate.cs/#L34">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Gateway_Events_MessageCreate__ctor_" data-uid="Remora.Discord.API.Gateway.Events.MessageCreate.#ctor*"></a>
+  <h4 id="Remora_Discord_API_Gateway_Events_MessageCreate__ctor_Remora_Rest_Core_Snowflake_Remora_Rest_Core_Snowflake_Remora_Rest_Core_Optional_Remora_Rest_Core_Snowflake__Remora_Discord_API_Abstractions_Objects_IUser_Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IPartialGuildMember__System_String_System_DateTimeOffset_System_Nullable_System_DateTimeOffset__System_Boolean_System_Boolean_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IUserMention__System_Collections_Generic_IReadOnlyList_Remora_Rest_Core_Snowflake__Remora_Rest_Core_Optional_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IChannelMention___System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IAttachment__System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IEmbed__Remora_Rest_Core_Optional_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IReaction___Remora_Rest_Core_Optional_System_String__System_Boolean_Remora_Rest_Core_Optional_Remora_Rest_Core_Snowflake__Remora_Discord_API_Abstractions_Objects_MessageType_Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IMessageActivity__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IPartialApplication__Remora_Rest_Core_Optional_Remora_Rest_Core_Snowflake__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IMessageReference__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_MessageFlags__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IMessage__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IMessageInteraction__Remora_Rest_Core_Optional_Remora_Discord_API_Abstractions_Objects_IChannel__Remora_Rest_Core_Optional_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IMessageComponent___Remora_Rest_Core_Optional_System_Collections_Generic_IReadOnlyList_Remora_Discord_API_Abstractions_Objects_IStickerItem___" data-uid="Remora.Discord.API.Gateway.Events.MessageCreate.#ctor(Remora.Rest.Core.Snowflake,Remora.Rest.Core.Snowflake,Remora.Rest.Core.Optional{Remora.Rest.Core.Snowflake},Remora.Discord.API.Abstractions.Objects.IUser,Remora.Rest.Core.Optional{Remora.Discord.API.Abstractions.Objects.IPartialGuildMember},System.String,System.DateTimeOffset,System.Nullable{System.DateTimeOffset},System.Boolean,System.Boolean,System.Collections.Generic.IReadOnlyList{Remora.Discord.API.Abstractions.Objects.IUserMention},System.Collections.Generic.IReadOnlyList{Remora.Rest.Core.Snowflake},Remora.Rest.Core.Optional{System.Collections.Generic.IReadOnlyList{Remora.Discord.API.Abstractions.Objects.IChannelMention}},System.Collections.Generic.IReadOnlyList{Remora.Discord.API.Abstractions.Objects.IAttachment},System.Collections.Generic.IReadOnlyList{Remora.Discord.API.Abstractions.Objects.IEmbed},Remora.Rest.Core.Optional{System.Collections.Generic.IReadOnlyList{Remora.Discord.API.Abstractions.Objects.IReaction}},Remora.Rest.Core.Optional{System.String},System.Boolean,Remora.Rest.Core.Optional{Remora.Rest.Core.Snowflake},Remora.Discord.API.Abstractions.Objects.MessageType,Remora.Rest.Core.Optional{Remora.Discord.API.Abstractions.Objects.IMessageActivity},Remora.Rest.Core.Optional{Remora.Discord.API.Abstractions.Objects.IPartialApplication},Remora.Rest.Core.Optional{Remora.Rest.Core.Snowflake},Remora.Rest.Core.Optional{Remora.Discord.API.Abstractions.Objects.IMessageReference},Remora.Rest.Core.Optional{Remora.Discord.API.Abstractions.Objects.MessageFlags},Remora.Rest.Core.Optional{Remora.Discord.API.Abstractions.Objects.IMessage},Remora.Rest.Core.Optional{Remora.Discord.API.Abstractions.Objects.IMessageInteraction},Remora.Rest.Core.Optional{Remora.Discord.API.Abstractions.Objects.IChannel},Remora.Rest.Core.Optional{System.Collections.Generic.IReadOnlyList{Remora.Discord.API.Abstractions.Objects.IMessageComponent}},Remora.Rest.Core.Optional{System.Collections.Generic.IReadOnlyList{Remora.Discord.API.Abstractions.Objects.IStickerItem}})">MessageCreate(Snowflake, Snowflake, Optional&lt;Snowflake&gt;, IUser, Optional&lt;IPartialGuildMember&gt;, String, DateTimeOffset, Nullable&lt;DateTimeOffset&gt;, Boolean, Boolean, IReadOnlyList&lt;IUserMention&gt;, IReadOnlyList&lt;Snowflake&gt;, Optional&lt;IReadOnlyList&lt;IChannelMention&gt;&gt;, IReadOnlyList&lt;IAttachment&gt;, IReadOnlyList&lt;IEmbed&gt;, Optional&lt;IReadOnlyList&lt;IReaction&gt;&gt;, Optional&lt;String&gt;, Boolean, Optional&lt;Snowflake&gt;, MessageType, Optional&lt;IMessageActivity&gt;, Optional&lt;IPartialApplication&gt;, Optional&lt;Snowflake&gt;, Optional&lt;IMessageReference&gt;, Optional&lt;MessageFlags&gt;, Optional&lt;IMessage&gt;, Optional&lt;IMessageInteraction&gt;, Optional&lt;IChannel&gt;, Optional&lt;IReadOnlyList&lt;IMessageComponent&gt;&gt;, Optional&lt;IReadOnlyList&lt;IStickerItem&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageCreate(Snowflake ID, Snowflake ChannelID, Optional&lt;Snowflake&gt; GuildID, IUser Author, Optional&lt;IPartialGuildMember&gt; Member, string Content, DateTimeOffset Timestamp, DateTimeOffset? EditedTimestamp, bool IsTTS, bool MentionsEveryone, IReadOnlyList&lt;IUserMention&gt; Mentions, IReadOnlyList&lt;Snowflake&gt; MentionedRoles, Optional&lt;IReadOnlyList&lt;IChannelMention&gt;&gt; MentionedChannels, IReadOnlyList&lt;IAttachment&gt; Attachments, IReadOnlyList&lt;IEmbed&gt; Embeds, Optional&lt;IReadOnlyList&lt;IReaction&gt;&gt; Reactions, Optional&lt;string&gt; Nonce, bool IsPinned, Optional&lt;Snowflake&gt; WebhookID, MessageType Type, Optional&lt;IMessageActivity&gt; Activity = default(Optional&lt;IMessageActivity&gt;), Optional&lt;IPartialApplication&gt; Application = default(Optional&lt;IPartialApplication&gt;), Optional&lt;Snowflake&gt; ApplicationID = default(Optional&lt;Snowflake&gt;), Optional&lt;IMessageReference&gt; MessageReference = default(Optional&lt;IMessageReference&gt;), Optional&lt;MessageFlags&gt; Flags = default(Optional&lt;MessageFlags&gt;), Optional&lt;IMessage&gt; ReferencedMessage = default(Optional&lt;IMessage&gt;), Optional&lt;IMessageInteraction&gt; Interaction = default(Optional&lt;IMessageInteraction&gt;), Optional&lt;IChannel&gt; Thread = default(Optional&lt;IChannel&gt;), Optional&lt;IReadOnlyList&lt;IMessageComponent&gt;&gt; Components = default(Optional&lt;IReadOnlyList&lt;IMessageComponent&gt;&gt;), Optional&lt;IReadOnlyList&lt;IStickerItem&gt;&gt; StickerItems = default(Optional&lt;IReadOnlyList&lt;IStickerItem&gt;&gt;))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Snowflake</span></td>
+        <td><span class="parametername">ID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Snowflake</span></td>
+        <td><span class="parametername">ChannelID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td><span class="parametername">GuildID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.API.Abstractions.Objects.IUser.html">IUser</a></td>
+        <td><span class="parametername">Author</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IPartialGuildMember.html">IPartialGuildMember</a>&gt;</td>
+        <td><span class="parametername">Member</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">Content</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></td>
+        <td><span class="parametername">Timestamp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>&gt;</td>
+        <td><span class="parametername">EditedTimestamp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">IsTTS</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">MentionsEveryone</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IUserMention.html">IUserMention</a>&gt;</td>
+        <td><span class="parametername">Mentions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td><span class="parametername">MentionedRoles</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IChannelMention.html">IChannelMention</a>&gt;&gt;</td>
+        <td><span class="parametername">MentionedChannels</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IAttachment.html">IAttachment</a>&gt;</td>
+        <td><span class="parametername">Attachments</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IEmbed.html">IEmbed</a>&gt;</td>
+        <td><span class="parametername">Embeds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IReaction.html">IReaction</a>&gt;&gt;</td>
+        <td><span class="parametername">Reactions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">Nonce</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">IsPinned</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td><span class="parametername">WebhookID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.API.Abstractions.Objects.MessageType.html">MessageType</a></td>
+        <td><span class="parametername">Type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IMessageActivity.html">IMessageActivity</a>&gt;</td>
+        <td><span class="parametername">Activity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IPartialApplication.html">IPartialApplication</a>&gt;</td>
+        <td><span class="parametername">Application</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td><span class="parametername">ApplicationID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IMessageReference.html">IMessageReference</a>&gt;</td>
+        <td><span class="parametername">MessageReference</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.MessageFlags.html">MessageFlags</a>&gt;</td>
+        <td><span class="parametername">Flags</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IMessage.html">IMessage</a>&gt;</td>
+        <td><span class="parametername">ReferencedMessage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IMessageInteraction.html">IMessageInteraction</a>&gt;</td>
+        <td><span class="parametername">Interaction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IChannel.html">IChannel</a>&gt;</td>
+        <td><span class="parametername">Thread</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IMessageComponent.html">IMessageComponent</a>&gt;&gt;</td>
+        <td><span class="parametername">Components</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IStickerItem.html">IStickerItem</a>&gt;&gt;</td>
+        <td><span class="parametername">StickerItems</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageCreate.html">IMessageCreate</a>
+  </div>
+  <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGatewayEvent.html">IGatewayEvent</a>
+  </div>
+  <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Gateway.IGatewayPayloadData.html">IGatewayPayloadData</a>
+  </div>
+  <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IMessage.html">IMessage</a>
+  </div>
+  <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IPartialMessage.html">IPartialMessage</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Remora.Discord.Commands.Extensions.MessageCreateExtensions.html#Remora_Discord_Commands_Extensions_MessageCreateExtensions_CreateContext_Remora_Discord_API_Abstractions_Gateway_Events_IMessageCreate_">MessageCreateExtensions.CreateContext(IMessageCreate)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Gateway_Events_MessageCreate.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Gateway.Events.MessageCreate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API/API/Gateway/Events/Messages/MessageCreate.cs/#L34" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

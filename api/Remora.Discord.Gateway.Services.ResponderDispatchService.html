@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ResponderDispatchService
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ResponderDispatchService
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService">
+  
+  
+  <h1 id="Remora_Discord_Gateway_Services_ResponderDispatchService" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService" class="text-break">Class ResponderDispatchService
+  </h1>
+  <div class="markdown level0 summary"><p>Manages dispatch and processing of gateway payloads.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">ResponderDispatchService</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Remora.Discord.Gateway.Services.html">Remora.Discord.Gateway.Services</a></h6>
+  <h6><strong>Assembly</strong>: Remora.Discord.Gateway.dll</h6>
+  <h5 id="Remora_Discord_Gateway_Services_ResponderDispatchService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public class ResponderDispatchService : IAsyncDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Gateway_Services_ResponderDispatchService__ctor_System_IServiceProvider_Remora_Discord_Gateway_Services_IResponderTypeRepository_Microsoft_Extensions_Logging_ILogger_Remora_Discord_Gateway_Services_ResponderDispatchService__.md&amp;value=---%0Auid%3A%20Remora.Discord.Gateway.Services.ResponderDispatchService.%23ctor(System.IServiceProvider%2CRemora.Discord.Gateway.Services.IResponderTypeRepository%2CMicrosoft.Extensions.Logging.ILogger%7BRemora.Discord.Gateway.Services.ResponderDispatchService%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Gateway/Services/ResponderDispatchService.cs/#L71">View Source</a>
+  </span>
+  <a id="Remora_Discord_Gateway_Services_ResponderDispatchService__ctor_" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.#ctor*"></a>
+  <h4 id="Remora_Discord_Gateway_Services_ResponderDispatchService__ctor_System_IServiceProvider_Remora_Discord_Gateway_Services_IResponderTypeRepository_Microsoft_Extensions_Logging_ILogger_Remora_Discord_Gateway_Services_ResponderDispatchService__" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.#ctor(System.IServiceProvider,Remora.Discord.Gateway.Services.IResponderTypeRepository,Microsoft.Extensions.Logging.ILogger{Remora.Discord.Gateway.Services.ResponderDispatchService})">ResponderDispatchService(IServiceProvider, IResponderTypeRepository, ILogger&lt;ResponderDispatchService&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Remora.Discord.Gateway.Services.ResponderDispatchService.html">ResponderDispatchService</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ResponderDispatchService(IServiceProvider services, IResponderTypeRepository responderTypeRepository, ILogger&lt;ResponderDispatchService&gt; log)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">services</span></td>
+        <td><p>The available services.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Gateway.Services.IResponderTypeRepository.html">IResponderTypeRepository</a></td>
+        <td><span class="parametername">responderTypeRepository</span></td>
+        <td><p>The responder type repository.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="Remora.Discord.Gateway.Services.ResponderDispatchService.html">ResponderDispatchService</a>&gt;</td>
+        <td><span class="parametername">log</span></td>
+        <td><p>The logging instance for this type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Gateway_Services_ResponderDispatchService_IsRunning.md&amp;value=---%0Auid%3A%20Remora.Discord.Gateway.Services.ResponderDispatchService.IsRunning%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Gateway/Services/ResponderDispatchService.cs/#L63">View Source</a>
+  </span>
+  <a id="Remora_Discord_Gateway_Services_ResponderDispatchService_IsRunning_" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.IsRunning*"></a>
+  <h4 id="Remora_Discord_Gateway_Services_ResponderDispatchService_IsRunning" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.IsRunning">IsRunning</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the dispatch service is currently running.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRunning { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Gateway_Services_ResponderDispatchService_DispatchAsync_Remora_Discord_API_Abstractions_Gateway_IPayload_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Remora.Discord.Gateway.Services.ResponderDispatchService.DispatchAsync(Remora.Discord.API.Abstractions.Gateway.IPayload%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Gateway/Services/ResponderDispatchService.cs/#L97">View Source</a>
+  </span>
+  <a id="Remora_Discord_Gateway_Services_ResponderDispatchService_DispatchAsync_" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.DispatchAsync*"></a>
+  <h4 id="Remora_Discord_Gateway_Services_ResponderDispatchService_DispatchAsync_Remora_Discord_API_Abstractions_Gateway_IPayload_System_Threading_CancellationToken_" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.DispatchAsync(Remora.Discord.API.Abstractions.Gateway.IPayload,System.Threading.CancellationToken)">DispatchAsync(IPayload, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Dispatches the given payload to interested responders. If the service is stopped with pending dispatches, the
+pending payloads will be dropped. Any payloads that have been dispatched (that is, a call to this method has
+returned a successful result) will be allowed to run to completion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;Result&gt; DispatchAsync(IPayload payload, CancellationToken ct = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.IPayload.html">IPayload</a></td>
+        <td><span class="parametername">payload</span></td>
+        <td><p>The payload to dispatch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">ct</span></td>
+        <td><p>The cancellation token for this operation. Note that this is <em>not</em> the cancellation token which will be passed
+to any instantiated responders.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Remora.Results.Result</span>&gt;</td>
+        <td><p>A result which may or may not have succeeded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Gateway_Services_ResponderDispatchService_DisposeAsync.md&amp;value=---%0Auid%3A%20Remora.Discord.Gateway.Services.ResponderDispatchService.DisposeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Gateway/Services/ResponderDispatchService.cs/#L504">View Source</a>
+  </span>
+  <a id="Remora_Discord_Gateway_Services_ResponderDispatchService_DisposeAsync_" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.DisposeAsync*"></a>
+  <h4 id="Remora_Discord_Gateway_Services_ResponderDispatchService_DisposeAsync" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.DisposeAsync">DisposeAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async ValueTask DisposeAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.valuetask">ValueTask</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Gateway_Services_ResponderDispatchService_Start.md&amp;value=---%0Auid%3A%20Remora.Discord.Gateway.Services.ResponderDispatchService.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Gateway/Services/ResponderDispatchService.cs/#L129">View Source</a>
+  </span>
+  <a id="Remora_Discord_Gateway_Services_ResponderDispatchService_Start_" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.Start*"></a>
+  <h4 id="Remora_Discord_Gateway_Services_ResponderDispatchService_Start" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Starts the dispatch service, beginning acceptance of payloads for dispatch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Gateway_Services_ResponderDispatchService_StopAsync.md&amp;value=---%0Auid%3A%20Remora.Discord.Gateway.Services.ResponderDispatchService.StopAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Gateway/Services/ResponderDispatchService.cs/#L154">View Source</a>
+  </span>
+  <a id="Remora_Discord_Gateway_Services_ResponderDispatchService_StopAsync_" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.StopAsync*"></a>
+  <h4 id="Remora_Discord_Gateway_Services_ResponderDispatchService_StopAsync" data-uid="Remora.Discord.Gateway.Services.ResponderDispatchService.StopAsync">StopAsync()</h4>
+  <div class="markdown level1 summary"><p>Stops the dispatch service, finishing any pending payloads.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task StopAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>A result which may or may not have succeeded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iasyncdisposable">System.IAsyncDisposable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Gateway_Services_ResponderDispatchService.md&amp;value=---%0Auid%3A%20Remora.Discord.Gateway.Services.ResponderDispatchService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Gateway/Services/ResponderDispatchService.cs/#L44" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

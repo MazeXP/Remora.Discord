@@ -1,0 +1,566 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISelectMenuComponent
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISelectMenuComponent
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent">
+  
+  
+  <h1 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent" class="text-break">Interface ISelectMenuComponent
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a dropdown of selectable values.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Remora.Discord.API.Abstractions.Objects.html">Remora.Discord.API.Abstractions.Objects</a></h6>
+  <h6><strong>Assembly</strong>: Remora.Discord.API.Abstractions.dll</h6>
+  <h5 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public interface ISelectMenuComponent : IMessageComponent, IPartialSelectMenuComponent, IPartialMessageComponent</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_CustomID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.CustomID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L43">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_CustomID_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.CustomID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_CustomID" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.CustomID">CustomID</h4>
+  <div class="markdown level1 summary"><p>Gets a custom ID for the component, defined by the developer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string CustomID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_IsDisabled.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.IsDisabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L68">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_IsDisabled_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.IsDisabled*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_IsDisabled" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.IsDisabled">IsDisabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the component is disabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IsDisabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_MaxValues.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.MaxValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L63">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_MaxValues_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.MaxValues*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_MaxValues" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.MaxValues">MaxValues</h4>
+  <div class="markdown level1 summary"><p>Gets the maximum number of options that may be selected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;int&gt; MaxValues { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_MinValues.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.MinValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L58">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_MinValues_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.MinValues*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_MinValues" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.MinValues">MinValues</h4>
+  <div class="markdown level1 summary"><p>Gets the minimum number of options that must be selected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;int&gt; MinValues { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Options.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Options%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L48">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Options_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Options*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Options" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Options">Options</h4>
+  <div class="markdown level1 summary"><p>Gets the options in the select menu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;ISelectOption&gt; Options { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.ISelectOption.html">ISelectOption</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Placeholder.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Placeholder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L53">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Placeholder_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Placeholder*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Placeholder" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Placeholder">Placeholder</h4>
+  <div class="markdown level1 summary"><p>Gets the placeholder text for the menu. Max 150 characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;string&gt; Placeholder { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Type.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L38">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Type_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Type*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Type" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Gets the type of the component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ComponentType Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.API.Abstractions.Objects.ComponentType.html">ComponentType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_CustomID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialSelectMenuComponent%23CustomID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L74">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_CustomID_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#CustomID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_CustomID" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#CustomID">IPartialSelectMenuComponent.CustomID</h4>
+  <div class="markdown level1 summary"><p>Gets a custom ID for the component, defined by the developer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;string&gt; IPartialSelectMenuComponent.CustomID { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_IsDisabled.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialSelectMenuComponent%23IsDisabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L89">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_IsDisabled_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#IsDisabled*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_IsDisabled" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#IsDisabled">IPartialSelectMenuComponent.IsDisabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the component is disabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IPartialSelectMenuComponent.IsDisabled { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_MaxValues.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialSelectMenuComponent%23MaxValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L86">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_MaxValues_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#MaxValues*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_MaxValues" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#MaxValues">IPartialSelectMenuComponent.MaxValues</h4>
+  <div class="markdown level1 summary"><p>Gets the maximum number of options that may be selected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;int&gt; IPartialSelectMenuComponent.MaxValues { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_MinValues.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialSelectMenuComponent%23MinValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L83">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_MinValues_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#MinValues*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_MinValues" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#MinValues">IPartialSelectMenuComponent.MinValues</h4>
+  <div class="markdown level1 summary"><p>Gets the minimum number of options that must be selected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;int&gt; IPartialSelectMenuComponent.MinValues { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Options.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialSelectMenuComponent%23Options%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L77">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Options_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#Options*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Options" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#Options">IPartialSelectMenuComponent.Options</h4>
+  <div class="markdown level1 summary"><p>Gets the options in the select menu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IReadOnlyList&lt;IPartialSelectOption&gt;&gt; IPartialSelectMenuComponent.Options { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IPartialSelectOption.html">IPartialSelectOption</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Placeholder.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialSelectMenuComponent%23Placeholder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L80">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Placeholder_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#Placeholder*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Placeholder" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#Placeholder">IPartialSelectMenuComponent.Placeholder</h4>
+  <div class="markdown level1 summary"><p>Gets the placeholder text for the menu. Max 150 characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;string&gt; IPartialSelectMenuComponent.Placeholder { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Type.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialSelectMenuComponent%23Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L71">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Type_" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#Type*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent_Remora_Discord_API_Abstractions_Objects_IPartialSelectMenuComponent_Type" data-uid="Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent.Remora#Discord#API#Abstractions#Objects#IPartialSelectMenuComponent#Type">IPartialSelectMenuComponent.Type</h4>
+  <div class="markdown level1 summary"><p>Gets the type of the component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;ComponentType&gt; IPartialSelectMenuComponent.Type { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.ComponentType.html">ComponentType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_ISelectMenuComponent.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.ISelectMenuComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/Components/SelectMenu/ISelectMenuComponent.cs/#L32" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

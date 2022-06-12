@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Remora.Discord.API.Abstractions.Gateway.Events
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Remora.Discord.API.Abstractions.Gateway.Events
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.API.Abstractions.Gateway.Events">
+  
+  <h1 id="Remora_Discord_API_Abstractions_Gateway_Events" data-uid="Remora.Discord.API.Abstractions.Gateway.Events" class="text-break">Namespace Remora.Discord.API.Abstractions.Gateway.Events
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IApplicationCommandPermissionsUpdate.html">IApplicationCommandPermissionsUpdate</a></h4>
+      <section><p>Represents an update to the permissions of a command.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IChannelCreate.html">IChannelCreate</a></h4>
+      <section><p>Represents the creation of a channel.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IChannelDelete.html">IChannelDelete</a></h4>
+      <section><p>Represents the deletion of a channel.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IChannelPinsUpdate.html">IChannelPinsUpdate</a></h4>
+      <section><p>Represents a pin or unpin of a message in a channel. This is not sent when a pinned message is deleted.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IChannelUpdate.html">IChannelUpdate</a></h4>
+      <section><p>Represents the update of a channel.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGatewayEvent.html">IGatewayEvent</a></h4>
+      <section><p>Acts as a marker interface for gateway events.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildBanAdd.html">IGuildBanAdd</a></h4>
+      <section><p>Represents a user being banned.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildBanRemove.html">IGuildBanRemove</a></h4>
+      <section><p>Represents a user being unbanned.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.html">IGuildCreate</a></h4>
+      <section><p>Represents the creation of a guild. This event is sent in one of three scenarios:</p>
+<ol>
+<li>When a user is initially connecting to lazily load and backfill information for all unavailable guilds
+sent in the <a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IReady.html">IReady</a> event.</li>
+<li>When a guild becomes available again to the client.</li>
+<li>When the current user joins a guild.</li>
+</ol>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildDelete.html">IGuildDelete</a></h4>
+      <section><p>Represents the delete of a guild.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildEmojisUpdate.html">IGuildEmojisUpdate</a></h4>
+      <section><p>Represents an update to a guild's emojis.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildIntegrationsUpdate.html">IGuildIntegrationsUpdate</a></h4>
+      <section><p>Represents an update to a guild integration.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildMemberAdd.html">IGuildMemberAdd</a></h4>
+      <section><p>Represents a new user joining the guild.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildMemberRemove.html">IGuildMemberRemove</a></h4>
+      <section><p>Represents a user being removed from the guild.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildMembersChunk.html">IGuildMembersChunk</a></h4>
+      <section><p>Represents a chunk of guild members.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildMemberUpdate.html">IGuildMemberUpdate</a></h4>
+      <section><p>Represents a user being updated in the guild.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildRoleCreate.html">IGuildRoleCreate</a></h4>
+      <section><p>Represents the creation of a role.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildRoleDelete.html">IGuildRoleDelete</a></h4>
+      <section><p>Represents a role deletion.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildRoleUpdate.html">IGuildRoleUpdate</a></h4>
+      <section><p>Represents an update to a role.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildScheduledEventCreate.html">IGuildScheduledEventCreate</a></h4>
+      <section><p>Sent when a scheduled event is created.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildScheduledEventDelete.html">IGuildScheduledEventDelete</a></h4>
+      <section><p>Sent when a scheduled event is deleted.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildScheduledEventUpdate.html">IGuildScheduledEventUpdate</a></h4>
+      <section><p>Sent when a scheduled event is updated.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildScheduledEventUserAdd.html">IGuildScheduledEventUserAdd</a></h4>
+      <section><p>Sent when a user subscribes to a scheduled event.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildScheduledEventUserRemove.html">IGuildScheduledEventUserRemove</a></h4>
+      <section><p>Sent when a user unsubscribes from a scheduled event.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildStickersUpdate.html">IGuildStickersUpdate</a></h4>
+      <section><p>Represents a change to the stickers in a guild.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IGuildUpdate.html">IGuildUpdate</a></h4>
+      <section><p>Represents the update of a guild.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IHello.html">IHello</a></h4>
+      <section><p>Represents the greeting event sent by the gateway after connection.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IIntegrationCreate.html">IIntegrationCreate</a></h4>
+      <section><p>Represents the creation of an integration.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IIntegrationDelete.html">IIntegrationDelete</a></h4>
+      <section><p>Represents the creation of an integration.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IIntegrationUpdate.html">IIntegrationUpdate</a></h4>
+      <section><p>Represents the creation of an integration.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IInteractionCreate.html">IInteractionCreate</a></h4>
+      <section><p>Represents a user-invoked slash command.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IInvalidSession.html">IInvalidSession</a></h4>
+      <section><p>Represents a reconnection event from the gateway.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IInviteCreate.html">IInviteCreate</a></h4>
+      <section><p>Represents the creation of an invite.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IInviteDelete.html">IInviteDelete</a></h4>
+      <section><p>Represents the deletion of an invite link.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageCreate.html">IMessageCreate</a></h4>
+      <section><p>Represents the creation of a message.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageDelete.html">IMessageDelete</a></h4>
+      <section><p>Represents the deletion of a message.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageDeleteBulk.html">IMessageDeleteBulk</a></h4>
+      <section><p>Represents a bulk deletion of a set of messages.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageReactionAdd.html">IMessageReactionAdd</a></h4>
+      <section><p>Represents the addition of a reaction to a message.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageReactionRemove.html">IMessageReactionRemove</a></h4>
+      <section><p>Represents the removal of a reaction from a message.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageReactionRemoveAll.html">IMessageReactionRemoveAll</a></h4>
+      <section><p>Represents the removal of all reaction from a message.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageReactionRemoveEmoji.html">IMessageReactionRemoveEmoji</a></h4>
+      <section><p>Represents the removal of all instances of a given emoji from a message.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IMessageUpdate.html">IMessageUpdate</a></h4>
+      <section><p>Represents the creation of a message.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IPresenceUpdate.html">IPresenceUpdate</a></h4>
+      <section><p>Represents the update of a user's presence.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IReady.html">IReady</a></h4>
+      <section><p>Represents initial gateway state information.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IReconnect.html">IReconnect</a></h4>
+      <section><p>Represents a reconnection request. This interface defines no data.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IResumed.html">IResumed</a></h4>
+      <section><p>Represents an event that marks the completion of a session resumption.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IStageInstanceCreate.html">IStageInstanceCreate</a></h4>
+      <section><p>Represents the creation of a stage instance.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IStageInstanceDelete.html">IStageInstanceDelete</a></h4>
+      <section><p>Represents a deletion of a stage instance.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IStageInstanceUpdate.html">IStageInstanceUpdate</a></h4>
+      <section><p>Represents an update of a stage instance.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IThreadCreate.html">IThreadCreate</a></h4>
+      <section><p>Represents the creation of a channel.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IThreadDelete.html">IThreadDelete</a></h4>
+      <section><p>Represents the creation of a channel.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IThreadListSync.html">IThreadListSync</a></h4>
+      <section><p>Sent when the current user gains access to a thread channel.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IThreadMembersUpdate.html">IThreadMembersUpdate</a></h4>
+      <section><p>Represents an update to the member list of a thread.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IThreadMemberUpdate.html">IThreadMemberUpdate</a></h4>
+      <section><p>Represents an update to the current user's thread member object.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IThreadUpdate.html">IThreadUpdate</a></h4>
+      <section><p>Represents the creation of a channel.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.ITypingStart.html">ITypingStart</a></h4>
+      <section><p>Sent when a user starts typing in a channel.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IUnknownEvent.html">IUnknownEvent</a></h4>
+      <section><p>Represents an unknown event.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IUserUpdate.html">IUserUpdate</a></h4>
+      <section><p>Represents an update to a user.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IVoiceServerUpdate.html">IVoiceServerUpdate</a></h4>
+      <section><p>Represents an update to a voice server of a guild.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IVoiceStateUpdate.html">IVoiceStateUpdate</a></h4>
+      <section><p>Represents an update to a user's voice state.</p>
+</section>
+      <h4><a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IWebhooksUpdate.html">IWebhooksUpdate</a></h4>
+      <section><p>Represents an update to a webhook in a channel.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

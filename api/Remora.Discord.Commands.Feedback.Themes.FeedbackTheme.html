@@ -1,0 +1,753 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FeedbackTheme
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FeedbackTheme
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme">
+  
+  
+  <h1 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme" class="text-break">Class FeedbackTheme
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a custom feedback theme.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">FeedbackTheme</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Remora.Discord.Commands.Feedback.Themes.IFeedbackTheme.html">IFeedbackTheme</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.html">FeedbackTheme</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Remora.Discord.Commands.Feedback.Themes.html">Remora.Discord.Commands.Feedback.Themes</a></h6>
+  <h6><strong>Assembly</strong>: Remora.Discord.Commands.dll</h6>
+  <h5 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public class FeedbackTheme : IFeedbackTheme, IEquatable&lt;FeedbackTheme&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme__ctor_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.%23ctor(System.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L31">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme__ctor_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.#ctor*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme__ctor_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_System_Drawing_Color_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">FeedbackTheme(Color, Color, Color, Color, Color, Color, Color, Color, Color, Color, Color, Color, Color, Color)</h4>
+  <div class="markdown level1 summary"><p>Represents a custom feedback theme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FeedbackTheme(Color Background, Color Text, Color TextSecondary, Color TextSecondaryDisabled, Color Primary, Color PrimaryDisabled, Color Secondary, Color SecondaryDisabled, Color Success, Color SuccessDisabled, Color Warning, Color WarningDisabled, Color FaultOrDanger, Color FaultOrDangerDisabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">Background</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">Text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">TextSecondary</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">TextSecondaryDisabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">Primary</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">PrimaryDisabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">Secondary</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">SecondaryDisabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">Success</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">SuccessDisabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">Warning</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">WarningDisabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">FaultOrDanger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">FaultOrDangerDisabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Background.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Background%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L34">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Background_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Background*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Background" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Background">Background</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Background { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_DiscordDark.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.DiscordDark%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L53">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_DiscordDark_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.DiscordDark*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_DiscordDark" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.DiscordDark">DiscordDark</h4>
+  <div class="markdown level1 summary"><p>Gets an instance that contains colours appropriate for Discord's dark theme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IFeedbackTheme DiscordDark { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Commands.Feedback.Themes.IFeedbackTheme.html">IFeedbackTheme</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_DiscordLight.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.DiscordLight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L74">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_DiscordLight_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.DiscordLight*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_DiscordLight" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.DiscordLight">DiscordLight</h4>
+  <div class="markdown level1 summary"><p>Gets an instance that contains colours appropriate for Discord's light theme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IFeedbackTheme DiscordLight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Commands.Feedback.Themes.IFeedbackTheme.html">IFeedbackTheme</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_FaultOrDanger.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.FaultOrDanger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L46">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_FaultOrDanger_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.FaultOrDanger*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_FaultOrDanger" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.FaultOrDanger">FaultOrDanger</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color FaultOrDanger { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_FaultOrDangerDisabled.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.FaultOrDangerDisabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L47">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_FaultOrDangerDisabled_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.FaultOrDangerDisabled*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_FaultOrDangerDisabled" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.FaultOrDangerDisabled">FaultOrDangerDisabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color FaultOrDangerDisabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Primary.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Primary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L38">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Primary_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Primary*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Primary" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Primary">Primary</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Primary { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_PrimaryDisabled.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.PrimaryDisabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L39">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_PrimaryDisabled_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.PrimaryDisabled*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_PrimaryDisabled" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.PrimaryDisabled">PrimaryDisabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color PrimaryDisabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Secondary.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Secondary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L40">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Secondary_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Secondary*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Secondary" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Secondary">Secondary</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Secondary { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_SecondaryDisabled.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.SecondaryDisabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L41">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_SecondaryDisabled_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.SecondaryDisabled*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_SecondaryDisabled" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.SecondaryDisabled">SecondaryDisabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color SecondaryDisabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Success.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Success%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L42">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Success_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Success*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Success" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Success">Success</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Success { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_SuccessDisabled.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.SuccessDisabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L43">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_SuccessDisabled_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.SuccessDisabled*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_SuccessDisabled" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.SuccessDisabled">SuccessDisabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color SuccessDisabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Text.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L35">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Text_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Text*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Text" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Text">Text</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Text { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_TextSecondary.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.TextSecondary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L36">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_TextSecondary_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.TextSecondary*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_TextSecondary" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.TextSecondary">TextSecondary</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color TextSecondary { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_TextSecondaryDisabled.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.TextSecondaryDisabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L37">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_TextSecondaryDisabled_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.TextSecondaryDisabled*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_TextSecondaryDisabled" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.TextSecondaryDisabled">TextSecondaryDisabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color TextSecondaryDisabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Warning.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Warning%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L44">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Warning_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Warning*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_Warning" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.Warning">Warning</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Warning { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_WarningDisabled.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.WarningDisabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L45">View Source</a>
+  </span>
+  <a id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_WarningDisabled_" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.WarningDisabled*"></a>
+  <h4 id="Remora_Discord_Commands_Feedback_Themes_FeedbackTheme_WarningDisabled" data-uid="Remora.Discord.Commands.Feedback.Themes.FeedbackTheme.WarningDisabled">WarningDisabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color WarningDisabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Remora.Discord.Commands.Feedback.Themes.IFeedbackTheme.html">IFeedbackTheme</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Commands_Feedback_Themes_FeedbackTheme.md&amp;value=---%0Auid%3A%20Remora.Discord.Commands.Feedback.Themes.FeedbackTheme%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Remora.Discord.Commands/Feedback/Themes/FeedbackTheme.cs/#L31" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

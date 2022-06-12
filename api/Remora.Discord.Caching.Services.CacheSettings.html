@@ -1,0 +1,1364 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CacheSettings
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CacheSettings
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.Caching.Services.CacheSettings">
+  
+  
+  <h1 id="Remora_Discord_Caching_Services_CacheSettings" data-uid="Remora.Discord.Caching.Services.CacheSettings" class="text-break">Class CacheSettings
+  </h1>
+  <div class="markdown level0 summary"><p>Holds various settings for individual cache objects.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">CacheSettings</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Remora.Discord.Caching.Services.html">Remora.Discord.Caching.Services</a></h6>
+  <h6><strong>Assembly</strong>: Remora.Discord.Caching.dll</h6>
+  <h5 id="Remora_Discord_Caching_Services_CacheSettings_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public class CacheSettings</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetAbsoluteExpirationOrDefault_System_Type_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetAbsoluteExpirationOrDefault(System.Type%2CSystem.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L206">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetAbsoluteExpirationOrDefault_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetAbsoluteExpirationOrDefault*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetAbsoluteExpirationOrDefault_System_Type_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetAbsoluteExpirationOrDefault(System.Type,System.Nullable{System.TimeSpan})">GetAbsoluteExpirationOrDefault(Type, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute expiration time in the cache for the given type, or a default value if one does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? GetAbsoluteExpirationOrDefault(Type cachedType, TimeSpan? defaultExpiration = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">cachedType</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultExpiration</span></td>
+        <td><p>The default expiration. Defaults to 30 seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><p>The absolute expiration time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetAbsoluteExpirationOrDefault__1_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetAbsoluteExpirationOrDefault%60%601(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L194">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetAbsoluteExpirationOrDefault_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetAbsoluteExpirationOrDefault*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetAbsoluteExpirationOrDefault__1_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetAbsoluteExpirationOrDefault``1(System.Nullable{System.TimeSpan})">GetAbsoluteExpirationOrDefault&lt;T&gt;(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute expiration time in the cache for the given type, or a default value if one does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? GetAbsoluteExpirationOrDefault&lt;T&gt;(TimeSpan? defaultExpiration = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultExpiration</span></td>
+        <td><p>The default expiration. Defaults to 30 seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><p>The absolute expiration time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetDistributedEntryOptions__1.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetDistributedEntryOptions%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L349">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetDistributedEntryOptions_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetDistributedEntryOptions*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetDistributedEntryOptions__1" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetDistributedEntryOptions``1">GetDistributedEntryOptions&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets a set of distributed cache options, with expirations relative to now.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DistributedCacheEntryOptions GetDistributedEntryOptions&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.caching.distributed.distributedcacheentryoptions">DistributedCacheEntryOptions</a></td>
+        <td><p>The entry options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cache entry type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetEntryOptions__1.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetEntryOptions%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L301">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetEntryOptions_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEntryOptions*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetEntryOptions__1" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEntryOptions``1">GetEntryOptions&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets a set of cache options, with expirations relative to now.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MemoryCacheEntryOptions GetEntryOptions&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.caching.memory.memorycacheentryoptions">MemoryCacheEntryOptions</a></td>
+        <td><p>The entry options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cache entry type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetEvictionAbsoluteExpirationOrDefault_System_Type_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetEvictionAbsoluteExpirationOrDefault(System.Type%2CSystem.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L234">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionAbsoluteExpirationOrDefault_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionAbsoluteExpirationOrDefault*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionAbsoluteExpirationOrDefault_System_Type_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionAbsoluteExpirationOrDefault(System.Type,System.Nullable{System.TimeSpan})">GetEvictionAbsoluteExpirationOrDefault(Type, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute expiration time in the cache for the given type when it has been evicted from the primary
+cache, or a default value if one does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? GetEvictionAbsoluteExpirationOrDefault(Type cachedType, TimeSpan? defaultExpiration = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">cachedType</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultExpiration</span></td>
+        <td><p>The default expiration. Defaults to 30 seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><p>The absolute expiration time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetEvictionAbsoluteExpirationOrDefault__1_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetEvictionAbsoluteExpirationOrDefault%60%601(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L221">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionAbsoluteExpirationOrDefault_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionAbsoluteExpirationOrDefault*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionAbsoluteExpirationOrDefault__1_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionAbsoluteExpirationOrDefault``1(System.Nullable{System.TimeSpan})">GetEvictionAbsoluteExpirationOrDefault&lt;T&gt;(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute expiration time in the cache for the given type when it has been evicted from the primary
+cache, or a default value if one does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? GetEvictionAbsoluteExpirationOrDefault&lt;T&gt;(TimeSpan? defaultExpiration = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultExpiration</span></td>
+        <td><p>The default expiration. Defaults to 30 seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><p>The absolute expiration time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetEvictionDistributedEntryOptions__1.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetEvictionDistributedEntryOptions%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L373">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionDistributedEntryOptions_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionDistributedEntryOptions*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionDistributedEntryOptions__1" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionDistributedEntryOptions``1">GetEvictionDistributedEntryOptions&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets a set of distributed cache options for an evicted value, with expirations relative to now.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DistributedCacheEntryOptions GetEvictionDistributedEntryOptions&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.caching.distributed.distributedcacheentryoptions">DistributedCacheEntryOptions</a></td>
+        <td><p>The entry options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cache entry type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetEvictionEntryOptions__1.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetEvictionEntryOptions%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L325">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionEntryOptions_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionEntryOptions*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionEntryOptions__1" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionEntryOptions``1">GetEvictionEntryOptions&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets a set of cache options for an evicted value, with expirations relative to now.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MemoryCacheEntryOptions GetEvictionEntryOptions&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.caching.memory.memorycacheentryoptions">MemoryCacheEntryOptions</a></td>
+        <td><p>The entry options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cache entry type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetEvictionSlidingExpirationOrDefault_System_Type_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetEvictionSlidingExpirationOrDefault(System.Type%2CSystem.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L288">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionSlidingExpirationOrDefault_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionSlidingExpirationOrDefault*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionSlidingExpirationOrDefault_System_Type_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionSlidingExpirationOrDefault(System.Type,System.Nullable{System.TimeSpan})">GetEvictionSlidingExpirationOrDefault(Type, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the sliding expiration time in the cache for the given type when it has been evicted from the primary
+cache, or a default value if one does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? GetEvictionSlidingExpirationOrDefault(Type cachedType, TimeSpan? defaultExpiration = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">cachedType</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultExpiration</span></td>
+        <td><p>The default expiration. Defaults to 10 seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><p>The sliding expiration time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetEvictionSlidingExpirationOrDefault__1_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetEvictionSlidingExpirationOrDefault%60%601(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L275">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionSlidingExpirationOrDefault_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionSlidingExpirationOrDefault*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetEvictionSlidingExpirationOrDefault__1_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetEvictionSlidingExpirationOrDefault``1(System.Nullable{System.TimeSpan})">GetEvictionSlidingExpirationOrDefault&lt;T&gt;(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the sliding expiration time in the cache for the given type when it has been evicted from the primary
+cache, or a default value if one does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? GetEvictionSlidingExpirationOrDefault&lt;T&gt;(TimeSpan? defaultExpiration = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultExpiration</span></td>
+        <td><p>The default expiration. Defaults to 10 seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><p>The sliding expiration time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetRedisEntryOptions__1.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetRedisEntryOptions%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L397">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetRedisEntryOptions_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetRedisEntryOptions*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetRedisEntryOptions__1" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetRedisEntryOptions``1">GetRedisEntryOptions&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets a set of distributed cache options, with expirations relative to now.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use GetDistributedEntryOptions instead.&quot;)]
+public DistributedCacheEntryOptions GetRedisEntryOptions&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.caching.distributed.distributedcacheentryoptions">DistributedCacheEntryOptions</a></td>
+        <td><p>The entry options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cache entry type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetSlidingExpirationOrDefault_System_Type_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetSlidingExpirationOrDefault(System.Type%2CSystem.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L260">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetSlidingExpirationOrDefault_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetSlidingExpirationOrDefault*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetSlidingExpirationOrDefault_System_Type_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetSlidingExpirationOrDefault(System.Type,System.Nullable{System.TimeSpan})">GetSlidingExpirationOrDefault(Type, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the sliding expiration time in the cache for the given type, or a default value if one does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? GetSlidingExpirationOrDefault(Type cachedType, TimeSpan? defaultExpiration = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">cachedType</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultExpiration</span></td>
+        <td><p>The default expiration. Defaults to 10 seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><p>The sliding expiration time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_GetSlidingExpirationOrDefault__1_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.GetSlidingExpirationOrDefault%60%601(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L248">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_GetSlidingExpirationOrDefault_" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetSlidingExpirationOrDefault*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_GetSlidingExpirationOrDefault__1_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.GetSlidingExpirationOrDefault``1(System.Nullable{System.TimeSpan})">GetSlidingExpirationOrDefault&lt;T&gt;(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the sliding expiration time in the cache for the given type, or a default value if one does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? GetSlidingExpirationOrDefault&lt;T&gt;(TimeSpan? defaultExpiration = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultExpiration</span></td>
+        <td><p>The default expiration. Defaults to 10 seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><p>The sliding expiration time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_SetAbsoluteExpiration__1_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.SetAbsoluteExpiration%60%601(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L133">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_SetAbsoluteExpiration_" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetAbsoluteExpiration*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_SetAbsoluteExpiration__1_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetAbsoluteExpiration``1(System.Nullable{System.TimeSpan})">SetAbsoluteExpiration&lt;TCachedType&gt;(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the absolute cache expiration for the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheSettings SetAbsoluteExpiration&lt;TCachedType&gt;(TimeSpan? absoluteExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">absoluteExpiration</span></td>
+        <td><p>The absolute expiration value. If the value is null, cached values will be kept indefinitely.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Caching.Services.CacheSettings.html">CacheSettings</a></td>
+        <td><p>The settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TCachedType</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Remora_Discord_Caching_Services_CacheSettings_SetAbsoluteExpiration__1_System_Nullable_System_TimeSpan___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method also sets the expiration time for evicted values to the same value, provided no other expiration
+time has already been set.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_SetDefaultAbsoluteExpiration_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.SetDefaultAbsoluteExpiration(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L82">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_SetDefaultAbsoluteExpiration_" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetDefaultAbsoluteExpiration*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_SetDefaultAbsoluteExpiration_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetDefaultAbsoluteExpiration(System.Nullable{System.TimeSpan})">SetDefaultAbsoluteExpiration(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the default absolute expiration value for types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheSettings SetDefaultAbsoluteExpiration(TimeSpan? defaultAbsoluteExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultAbsoluteExpiration</span></td>
+        <td><p>The default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Caching.Services.CacheSettings.html">CacheSettings</a></td>
+        <td><p>The settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_SetDefaultEvictionAbsoluteExpiration_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.SetDefaultEvictionAbsoluteExpiration(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L104">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_SetDefaultEvictionAbsoluteExpiration_" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetDefaultEvictionAbsoluteExpiration*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_SetDefaultEvictionAbsoluteExpiration_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetDefaultEvictionAbsoluteExpiration(System.Nullable{System.TimeSpan})">SetDefaultEvictionAbsoluteExpiration(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the default absolute expiration value for types when they have been evicted from the primary cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheSettings SetDefaultEvictionAbsoluteExpiration(TimeSpan? defaultAbsoluteExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultAbsoluteExpiration</span></td>
+        <td><p>The default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Caching.Services.CacheSettings.html">CacheSettings</a></td>
+        <td><p>The settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_SetDefaultEvictionSlidingExpiration_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.SetDefaultEvictionSlidingExpiration(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L115">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_SetDefaultEvictionSlidingExpiration_" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetDefaultEvictionSlidingExpiration*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_SetDefaultEvictionSlidingExpiration_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetDefaultEvictionSlidingExpiration(System.Nullable{System.TimeSpan})">SetDefaultEvictionSlidingExpiration(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the default sliding expiration value for types when they have been evicted from the primary cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheSettings SetDefaultEvictionSlidingExpiration(TimeSpan? defaultSlidingExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultSlidingExpiration</span></td>
+        <td><p>The default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Caching.Services.CacheSettings.html">CacheSettings</a></td>
+        <td><p>The settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_SetDefaultSlidingExpiration_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.SetDefaultSlidingExpiration(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L93">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_SetDefaultSlidingExpiration_" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetDefaultSlidingExpiration*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_SetDefaultSlidingExpiration_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetDefaultSlidingExpiration(System.Nullable{System.TimeSpan})">SetDefaultSlidingExpiration(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the default sliding expiration value for types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheSettings SetDefaultSlidingExpiration(TimeSpan? defaultSlidingExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">defaultSlidingExpiration</span></td>
+        <td><p>The default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Caching.Services.CacheSettings.html">CacheSettings</a></td>
+        <td><p>The settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_SetEvictionAbsoluteExpiration__1_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.SetEvictionAbsoluteExpiration%60%601(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L168">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_SetEvictionAbsoluteExpiration_" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetEvictionAbsoluteExpiration*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_SetEvictionAbsoluteExpiration__1_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetEvictionAbsoluteExpiration``1(System.Nullable{System.TimeSpan})">SetEvictionAbsoluteExpiration&lt;TCachedType&gt;(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the absolute cache expiration for the given type when it has been evicted from the primary cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheSettings SetEvictionAbsoluteExpiration&lt;TCachedType&gt;(TimeSpan? absoluteExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">absoluteExpiration</span></td>
+        <td><p>The absolute expiration value. If the value is null, cached values will be kept indefinitely.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Caching.Services.CacheSettings.html">CacheSettings</a></td>
+        <td><p>The settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TCachedType</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_SetEvictionSlidingExpiration__1_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.SetEvictionSlidingExpiration%60%601(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L182">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_SetEvictionSlidingExpiration_" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetEvictionSlidingExpiration*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_SetEvictionSlidingExpiration__1_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetEvictionSlidingExpiration``1(System.Nullable{System.TimeSpan})">SetEvictionSlidingExpiration&lt;TCachedType&gt;(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the sliding cache expiration for the given type when it has been evicted from the primary cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheSettings SetEvictionSlidingExpiration&lt;TCachedType&gt;(TimeSpan? slidingExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">slidingExpiration</span></td>
+        <td><p>The sliding expiration value. If the value is null, cached values will be kept indefinitely.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Caching.Services.CacheSettings.html">CacheSettings</a></td>
+        <td><p>The settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TCachedType</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings_SetSlidingExpiration__1_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings.SetSlidingExpiration%60%601(System.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L153">View Source</a>
+  </span>
+  <a id="Remora_Discord_Caching_Services_CacheSettings_SetSlidingExpiration_" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetSlidingExpiration*"></a>
+  <h4 id="Remora_Discord_Caching_Services_CacheSettings_SetSlidingExpiration__1_System_Nullable_System_TimeSpan__" data-uid="Remora.Discord.Caching.Services.CacheSettings.SetSlidingExpiration``1(System.Nullable{System.TimeSpan})">SetSlidingExpiration&lt;TCachedType&gt;(Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the sliding cache expiration for the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheSettings SetSlidingExpiration&lt;TCachedType&gt;(TimeSpan? slidingExpiration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">slidingExpiration</span></td>
+        <td><p>The sliding expiration value. If the value is null, cached values will be kept indefinitely.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.Caching.Services.CacheSettings.html">CacheSettings</a></td>
+        <td><p>The settings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TCachedType</span></td>
+        <td><p>The cached type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Remora_Discord_Caching_Services_CacheSettings_SetSlidingExpiration__1_System_Nullable_System_TimeSpan___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method also sets the expiration time for evicted values to the same value, provided no other expiration
+time has already been set.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_Caching_Services_CacheSettings.md&amp;value=---%0Auid%3A%20Remora.Discord.Caching.Services.CacheSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.Caching/Services/CacheSettings.cs/#L34" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IInteraction
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IInteraction
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction">
+  
+  
+  <h1 id="Remora_Discord_API_Abstractions_Objects_IInteraction" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction" class="text-break">Interface IInteraction
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a user interaction.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Remora.Discord.API.Abstractions.Objects.html">Remora.Discord.API.Abstractions.Objects</a></h6>
+  <h6><strong>Assembly</strong>: Remora.Discord.API.Abstractions.dll</h6>
+  <h5 id="Remora_Discord_API_Abstractions_Objects_IInteraction_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public interface IInteraction</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_ApplicationID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.ApplicationID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L42">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_ApplicationID_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.ApplicationID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_ApplicationID" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.ApplicationID">ApplicationID</h4>
+  <div class="markdown level1 summary"><p>Gets the application ID that the interaction is for.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Snowflake ApplicationID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Snowflake</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_ChannelID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.ChannelID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L62">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_ChannelID_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.ChannelID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_ChannelID" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.ChannelID">ChannelID</h4>
+  <div class="markdown level1 summary"><p>Gets the ID of the channel the interaction was sent from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;Snowflake&gt; ChannelID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_Data.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L52">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_Data_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Data*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Data" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Data">Data</h4>
+  <div class="markdown level1 summary"><p>Gets the command data payload.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IInteractionData&gt; Data { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IInteractionData.html">IInteractionData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_GuildID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.GuildID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L57">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_GuildID_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.GuildID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_GuildID" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.GuildID">GuildID</h4>
+  <div class="markdown level1 summary"><p>Gets the ID of the guild the interaction was sent from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;Snowflake&gt; GuildID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_GuildLocale.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.GuildLocale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L101">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_GuildLocale_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.GuildLocale*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_GuildLocale" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.GuildLocale">GuildLocale</h4>
+  <div class="markdown level1 summary"><p>Gets the locale of the guild the interaction was sent from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;string&gt; GuildLocale { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_ID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.ID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L37">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_ID_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.ID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_ID" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.ID">ID</h4>
+  <div class="markdown level1 summary"><p>Gets the interaction ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Snowflake ID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Snowflake</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_Locale.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.Locale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L96">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_Locale_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Locale*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Locale" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Locale">Locale</h4>
+  <div class="markdown level1 summary"><p>Gets the locale of the invoking user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;string&gt; Locale { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Locale_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is sent for all interaction types, except <a class="xref" href="Remora.Discord.API.Abstractions.Objects.InteractionType.html#Remora_Discord_API_Abstractions_Objects_InteractionType_Ping">Ping</a>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_Member.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.Member%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L67">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_Member_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Member*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Member" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Member">Member</h4>
+  <div class="markdown level1 summary"><p>Gets the guild member that invoked the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IGuildMember&gt; Member { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuildMember.html">IGuildMember</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_Message.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.Message%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L88">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_Message_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Message*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Message" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Message">Message</h4>
+  <div class="markdown level1 summary"><p>Gets the message the component was attached to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IMessage&gt; Message { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IMessage.html">IMessage</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_Token.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.Token%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L78">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_Token_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Token*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Token" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Token">Token</h4>
+  <div class="markdown level1 summary"><p>Gets a continuation token for responding to the interaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Token { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Token_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This token is valid for 15 minutes.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_Type.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L47">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_Type_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Type*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Type" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Gets the type of the interaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">InteractionType Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Remora.Discord.API.Abstractions.Objects.InteractionType.html">InteractionType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_User.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.User%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L72">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_User_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.User*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_User" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.User">User</h4>
+  <div class="markdown level1 summary"><p>Gets the user that invoked the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IUser&gt; User { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IUser.html">IUser</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction_Version.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L83">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IInteraction_Version_" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Version*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IInteraction_Version" data-uid="Remora.Discord.API.Abstractions.Objects.IInteraction.Version">Version</h4>
+  <div class="markdown level1 summary"><p>Gets the version of the interaction API in use. Currently 1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Version { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IInteraction.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IInteraction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Interactions/IInteraction.cs/#L31" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

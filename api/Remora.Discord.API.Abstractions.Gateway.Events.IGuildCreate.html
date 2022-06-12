@@ -1,0 +1,714 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IGuildCreate
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IGuildCreate
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate">
+  
+  
+  <h1 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate" class="text-break">Interface IGuildCreate
+  </h1>
+  <div class="markdown level0 summary"><p>Represents the creation of a guild. This event is sent in one of three scenarios:</p>
+<ol>
+<li>When a user is initially connecting to lazily load and backfill information for all unavailable guilds
+sent in the <a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.IReady.html">IReady</a> event.</li>
+<li>When a guild becomes available again to the client.</li>
+<li>When the current user joins a guild.</li>
+</ol>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_ID">IGuild.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Name">IGuild.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Icon">IGuild.Icon</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Splash">IGuild.Splash</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_DiscoverySplash">IGuild.DiscoverySplash</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_IsOwner">IGuild.IsOwner</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_OwnerID">IGuild.OwnerID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Permissions">IGuild.Permissions</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_AFKChannelID">IGuild.AFKChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_AFKTimeout">IGuild.AFKTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_VerificationLevel">IGuild.VerificationLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_DefaultMessageNotifications">IGuild.DefaultMessageNotifications</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_ExplicitContentFilter">IGuild.ExplicitContentFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Roles">IGuild.Roles</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Emojis">IGuild.Emojis</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_GuildFeatures">IGuild.GuildFeatures</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_MFALevel">IGuild.MFALevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_ApplicationID">IGuild.ApplicationID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_IsWidgetEnabled">IGuild.IsWidgetEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_WidgetChannelID">IGuild.WidgetChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_SystemChannelID">IGuild.SystemChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_SystemChannelFlags">IGuild.SystemChannelFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_RulesChannelID">IGuild.RulesChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_MaxPresences">IGuild.MaxPresences</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_MaxMembers">IGuild.MaxMembers</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_VanityUrlCode">IGuild.VanityUrlCode</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Description">IGuild.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Banner">IGuild.Banner</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_PremiumTier">IGuild.PremiumTier</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_PremiumSubscriptionCount">IGuild.PremiumSubscriptionCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_PreferredLocale">IGuild.PreferredLocale</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_PublicUpdatesChannelID">IGuild.PublicUpdatesChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_MaxVideoChannelUsers">IGuild.MaxVideoChannelUsers</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_ApproximateMemberCount">IGuild.ApproximateMemberCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_ApproximatePresenceCount">IGuild.ApproximatePresenceCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_WelcomeScreen">IGuild.WelcomeScreen</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_NSFWLevel">IGuild.NSFWLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Stickers">IGuild.Stickers</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_IsPremiumProgressBarEnabled">IGuild.IsPremiumProgressBarEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_ID">IGuild.IPartialGuild.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Name">IGuild.IPartialGuild.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Icon">IGuild.IPartialGuild.Icon</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Splash">IGuild.IPartialGuild.Splash</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_DiscoverySplash">IGuild.IPartialGuild.DiscoverySplash</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_IsOwner">IGuild.IPartialGuild.IsOwner</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_OwnerID">IGuild.IPartialGuild.OwnerID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Permissions">IGuild.IPartialGuild.Permissions</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_AFKChannelID">IGuild.IPartialGuild.AFKChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_AFKTimeout">IGuild.IPartialGuild.AFKTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_VerificationLevel">IGuild.IPartialGuild.VerificationLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_DefaultMessageNotifications">IGuild.IPartialGuild.DefaultMessageNotifications</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_ExplicitContentFilter">IGuild.IPartialGuild.ExplicitContentFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Roles">IGuild.IPartialGuild.Roles</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Emojis">IGuild.IPartialGuild.Emojis</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_GuildFeatures">IGuild.IPartialGuild.GuildFeatures</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_MFALevel">IGuild.IPartialGuild.MFALevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_ApplicationID">IGuild.IPartialGuild.ApplicationID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_IsWidgetEnabled">IGuild.IPartialGuild.IsWidgetEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_WidgetChannelID">IGuild.IPartialGuild.WidgetChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_SystemChannelID">IGuild.IPartialGuild.SystemChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_SystemChannelFlags">IGuild.IPartialGuild.SystemChannelFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_RulesChannelID">IGuild.IPartialGuild.RulesChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_MaxPresences">IGuild.IPartialGuild.MaxPresences</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_MaxMembers">IGuild.IPartialGuild.MaxMembers</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_VanityUrlCode">IGuild.IPartialGuild.VanityUrlCode</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Description">IGuild.IPartialGuild.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Banner">IGuild.IPartialGuild.Banner</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_PremiumTier">IGuild.IPartialGuild.PremiumTier</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_PremiumSubscriptionCount">IGuild.IPartialGuild.PremiumSubscriptionCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_PreferredLocale">IGuild.IPartialGuild.PreferredLocale</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_PublicUpdatesChannelID">IGuild.IPartialGuild.PublicUpdatesChannelID</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_MaxVideoChannelUsers">IGuild.IPartialGuild.MaxVideoChannelUsers</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_ApproximateMemberCount">IGuild.IPartialGuild.ApproximateMemberCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_ApproximatePresenceCount">IGuild.IPartialGuild.ApproximatePresenceCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_WelcomeScreen">IGuild.IPartialGuild.WelcomeScreen</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_NSFWLevel">IGuild.IPartialGuild.NSFWLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_Stickers">IGuild.IPartialGuild.Stickers</a>
+    </div>
+    <div>
+      <a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuild.html#Remora_Discord_API_Abstractions_Objects_IGuild_Remora_Discord_API_Abstractions_Objects_IPartialGuild_IsPremiumProgressBarEnabled">IGuild.IPartialGuild.IsPremiumProgressBarEnabled</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Remora.Discord.API.Abstractions.Gateway.Events.html">Remora.Discord.API.Abstractions.Gateway.Events</a></h6>
+  <h6><strong>Assembly</strong>: Remora.Discord.API.Abstractions.dll</h6>
+  <h5 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public interface IGuildCreate : IGatewayEvent, IGatewayPayloadData, IGuild, IPartialGuild</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Channels.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Channels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L74">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Channels_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Channels*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Channels" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Channels">Channels</h4>
+  <div class="markdown level1 summary"><p>Gets the channels in the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IReadOnlyList&lt;IChannel&gt;&gt; Channels { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IChannel.html">IChannel</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_GuildScheduledEvents.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.GuildScheduledEvents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L94">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_GuildScheduledEvents_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.GuildScheduledEvents*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_GuildScheduledEvents" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.GuildScheduledEvents">GuildScheduledEvents</h4>
+  <div class="markdown level1 summary"><p>Gets the scheduled events in the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IReadOnlyList&lt;IGuildScheduledEvent&gt;&gt; GuildScheduledEvents { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuildScheduledEvent.html">IGuildScheduledEvent</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_IsLarge.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.IsLarge%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L49">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_IsLarge_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.IsLarge*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_IsLarge" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.IsLarge">IsLarge</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this is considered a large guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IsLarge { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_IsUnavailable.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.IsUnavailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L54">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_IsUnavailable_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.IsUnavailable*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_IsUnavailable" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.IsUnavailable">IsUnavailable</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the guild is unavailable due to an outage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IsUnavailable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_JoinedAt.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.JoinedAt%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L44">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_JoinedAt_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.JoinedAt*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_JoinedAt" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.JoinedAt">JoinedAt</h4>
+  <div class="markdown level1 summary"><p>Gets the time when the current user joined the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;DateTimeOffset&gt; JoinedAt { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_MemberCount.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.MemberCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L59">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_MemberCount_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.MemberCount*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_MemberCount" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.MemberCount">MemberCount</h4>
+  <div class="markdown level1 summary"><p>Gets the number of members in the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;int&gt; MemberCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Members.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Members%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L69">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Members_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Members*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Members" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Members">Members</h4>
+  <div class="markdown level1 summary"><p>Gets the members in the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IReadOnlyList&lt;IGuildMember&gt;&gt; Members { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuildMember.html">IGuildMember</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Presences.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Presences%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L84">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Presences_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Presences*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Presences" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Presences">Presences</h4>
+  <div class="markdown level1 summary"><p>Gets the presences of the members in the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IReadOnlyList&lt;IPartialPresence&gt;&gt; Presences { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IPartialPresence.html">IPartialPresence</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_StageInstances.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.StageInstances%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L89">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_StageInstances_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.StageInstances*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_StageInstances" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.StageInstances">StageInstances</h4>
+  <div class="markdown level1 summary"><p>Gets the stage instances in the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IReadOnlyList&lt;IStageInstance&gt;&gt; StageInstances { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IStageInstance.html">IStageInstance</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Threads.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Threads%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L79">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Threads_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Threads*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_Threads" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.Threads">Threads</h4>
+  <div class="markdown level1 summary"><p>Gets the threads in the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IReadOnlyList&lt;IChannel&gt;&gt; Threads { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IChannel.html">IChannel</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_VoiceStates.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.VoiceStates%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L64">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_VoiceStates_" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.VoiceStates*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate_VoiceStates" data-uid="Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate.VoiceStates">VoiceStates</h4>
+  <div class="markdown level1 summary"><p>Gets the states of members currently in voice channels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IReadOnlyList&lt;IPartialVoiceState&gt;&gt; VoiceStates { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IPartialVoiceState.html">IPartialVoiceState</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Gateway_Events_IGuildCreate.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Gateway.Events.IGuildCreate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Gateway/Events/Guilds/IGuildCreate.cs/#L38" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

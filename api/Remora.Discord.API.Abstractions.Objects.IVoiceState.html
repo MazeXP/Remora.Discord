@@ -1,0 +1,938 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IVoiceState
+   | Remora.Discord </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IVoiceState
+   | Remora.Discord ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState">
+  
+  
+  <h1 id="Remora_Discord_API_Abstractions_Objects_IVoiceState" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState" class="text-break">Interface IVoiceState
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a user's voice connection status.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Remora.Discord.API.Abstractions.Objects.html">Remora.Discord.API.Abstractions.Objects</a></h6>
+  <h6><strong>Assembly</strong>: Remora.Discord.API.Abstractions.dll</h6>
+  <h5 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public interface IVoiceState : IPartialVoiceState</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_ChannelID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.ChannelID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L43">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_ChannelID_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.ChannelID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_ChannelID" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.ChannelID">ChannelID</h4>
+  <div class="markdown level1 summary"><p>Gets the channel ID this user is connected to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Snowflake? ChannelID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_GuildID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.GuildID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L38">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_GuildID_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.GuildID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_GuildID" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.GuildID">GuildID</h4>
+  <div class="markdown level1 summary"><p>Gets the guild ID this voice state is for.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;Snowflake&gt; GuildID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_IsDeafened.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.IsDeafened%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L63">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsDeafened_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsDeafened*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsDeafened" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsDeafened">IsDeafened</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is deafened by the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsDeafened { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_IsMuted.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.IsMuted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L68">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsMuted_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsMuted*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsMuted" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsMuted">IsMuted</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is muted by the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsMuted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSelfDeafened.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSelfDeafened%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L73">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSelfDeafened_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSelfDeafened*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSelfDeafened" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSelfDeafened">IsSelfDeafened</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is locally deafened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsSelfDeafened { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSelfMuted.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSelfMuted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L78">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSelfMuted_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSelfMuted*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSelfMuted" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSelfMuted">IsSelfMuted</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is locally muted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsSelfMuted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_IsStreaming.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.IsStreaming%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L83">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsStreaming_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsStreaming*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsStreaming" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsStreaming">IsStreaming</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is currently streaming using &quot;Go Live&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IsStreaming { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSuppressed.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSuppressed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L93">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSuppressed_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSuppressed*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsSuppressed" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsSuppressed">IsSuppressed</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is muted by the current user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsSuppressed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_IsVideoEnabled.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.IsVideoEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L88">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsVideoEnabled_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsVideoEnabled*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_IsVideoEnabled" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.IsVideoEnabled">IsVideoEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user's camera is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsVideoEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Member.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Member%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L53">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Member_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Member*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Member" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Member">Member</h4>
+  <div class="markdown level1 summary"><p>Gets the guild member this voice state is for.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IGuildMember&gt; Member { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuildMember.html">IGuildMember</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_RequestToSpeakTimestamp.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.RequestToSpeakTimestamp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L98">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_RequestToSpeakTimestamp_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.RequestToSpeakTimestamp*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_RequestToSpeakTimestamp" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.RequestToSpeakTimestamp">RequestToSpeakTimestamp</h4>
+  <div class="markdown level1 summary"><p>Gets the time at which the user requested to speak.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTimeOffset? RequestToSpeakTimestamp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_SessionID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.SessionID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L58">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_SessionID_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.SessionID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_SessionID" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.SessionID">SessionID</h4>
+  <div class="markdown level1 summary"><p>Gets the session ID for this voice state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string SessionID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_UserID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.UserID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L48">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_UserID_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.UserID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_UserID" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.UserID">UserID</h4>
+  <div class="markdown level1 summary"><p>Gets the user ID this voice state is for.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Snowflake UserID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Snowflake</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_ChannelID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23ChannelID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L104">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_ChannelID_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#ChannelID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_ChannelID" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#ChannelID">IPartialVoiceState.ChannelID</h4>
+  <div class="markdown level1 summary"><p>Gets the channel ID this user is connected to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;Snowflake?&gt; IPartialVoiceState.ChannelID { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_GuildID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23GuildID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L101">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_GuildID_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#GuildID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_GuildID" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#GuildID">IPartialVoiceState.GuildID</h4>
+  <div class="markdown level1 summary"><p>Gets the guild ID this voice state is for.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;Snowflake&gt; IPartialVoiceState.GuildID { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsDeafened.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23IsDeafened%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L116">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsDeafened_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsDeafened*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsDeafened" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsDeafened">IPartialVoiceState.IsDeafened</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is deafened by the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IPartialVoiceState.IsDeafened { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsMuted.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23IsMuted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L119">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsMuted_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsMuted*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsMuted" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsMuted">IPartialVoiceState.IsMuted</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is muted by the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IPartialVoiceState.IsMuted { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSelfDeafened.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23IsSelfDeafened%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L122">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSelfDeafened_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsSelfDeafened*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSelfDeafened" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsSelfDeafened">IPartialVoiceState.IsSelfDeafened</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is locally deafened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IPartialVoiceState.IsSelfDeafened { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSelfMuted.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23IsSelfMuted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L125">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSelfMuted_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsSelfMuted*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSelfMuted" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsSelfMuted">IPartialVoiceState.IsSelfMuted</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is locally muted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IPartialVoiceState.IsSelfMuted { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsStreaming.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23IsStreaming%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L128">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsStreaming_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsStreaming*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsStreaming" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsStreaming">IPartialVoiceState.IsStreaming</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is currently streaming using &quot;Go Live&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IPartialVoiceState.IsStreaming { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSuppressed.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23IsSuppressed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L134">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSuppressed_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsSuppressed*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsSuppressed" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsSuppressed">IPartialVoiceState.IsSuppressed</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user is muted by the current user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IPartialVoiceState.IsSuppressed { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsVideoEnabled.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23IsVideoEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L131">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsVideoEnabled_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsVideoEnabled*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_IsVideoEnabled" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#IsVideoEnabled">IPartialVoiceState.IsVideoEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the user's camera is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;bool&gt; IPartialVoiceState.IsVideoEnabled { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_Member.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23Member%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L110">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_Member_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#Member*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_Member" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#Member">IPartialVoiceState.Member</h4>
+  <div class="markdown level1 summary"><p>Gets the guild member this voice state is for.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;IGuildMember&gt; IPartialVoiceState.Member { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="Remora.Discord.API.Abstractions.Objects.IGuildMember.html">IGuildMember</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_RequestToSpeakTimestamp.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23RequestToSpeakTimestamp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L137">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_RequestToSpeakTimestamp_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#RequestToSpeakTimestamp*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_RequestToSpeakTimestamp" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#RequestToSpeakTimestamp">IPartialVoiceState.RequestToSpeakTimestamp</h4>
+  <div class="markdown level1 summary"><p>Gets the time at which the user requested to speak.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;DateTimeOffset?&gt; IPartialVoiceState.RequestToSpeakTimestamp { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_SessionID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23SessionID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L113">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_SessionID_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#SessionID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_SessionID" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#SessionID">IPartialVoiceState.SessionID</h4>
+  <div class="markdown level1 summary"><p>Gets the session ID for this voice state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;string&gt; IPartialVoiceState.SessionID { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_UserID.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora%23Discord%23API%23Abstractions%23Objects%23IPartialVoiceState%23UserID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L107">View Source</a>
+  </span>
+  <a id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_UserID_" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#UserID*"></a>
+  <h4 id="Remora_Discord_API_Abstractions_Objects_IVoiceState_Remora_Discord_API_Abstractions_Objects_IPartialVoiceState_UserID" data-uid="Remora.Discord.API.Abstractions.Objects.IVoiceState.Remora#Discord#API#Abstractions#Objects#IPartialVoiceState#UserID">IPartialVoiceState.UserID</h4>
+  <div class="markdown level1 summary"><p>Gets the user ID this voice state is for.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Optional&lt;Snowflake&gt; IPartialVoiceState.UserID { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Remora.Rest.Core.Optional</span>&lt;<span class="xref">Remora.Rest.Core.Snowflake</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/new/master/apiSpec/new?filename=Remora_Discord_API_Abstractions_Objects_IVoiceState.md&amp;value=---%0Auid%3A%20Remora.Discord.API.Abstractions.Objects.IVoiceState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MazeXP/Remora.Discord/blob/master/Backend/Remora.Discord.API.Abstractions/API/Objects/Voice/IVoiceState.cs/#L32" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
