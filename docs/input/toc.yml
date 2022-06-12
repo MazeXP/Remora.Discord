@@ -1,0 +1,5 @@
+- name: Guides
+  href: guides/
+  homepage: guides/getting-started.md
+- name: API
+  href: ../obj/api/
