@@ -1,0 +1,78 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "Backend/**/*.csproj",
+            "Remora.Discord/*.csproj",
+            "Remora.Discord.*/*.csproj"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**"
+          ],
+          "src": ".."
+        }
+      ],
+      "properties": {
+        "TargetFramework": "netstandard2.1"
+      },
+      "dest": "obj/api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "obj/api",
+        "dest": "api"
+      },
+      {
+        "files": [
+          "**.{md,yml}"
+        ],
+        "src": "input"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/images/**"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**.meta"
+        ],
+        "src": "input"
+      }
+    ],
+    "overwrite": [],
+    "xrefService": [
+      "https://xref.docs.microsoft.com/query?uid={uid}"
+    ],
+    "postProcessors": [],
+    "globalMetadata": {
+      "_appTitle": "Remora.Discord",
+      "_gitContribute": {
+        "branch": "master",
+        "apiSpecFolder": null
+      }
+    },
+    "fileMetadata": {
+      "keywords": {
+        "obj/api/**": [
+          "API",
+          "Reference"
+        ]
+      }
+    },
+    "dest": "output",
+    "markdownEngineName": "markdig",
+    "template": [
+      "default"
+    ]
+  }
+}

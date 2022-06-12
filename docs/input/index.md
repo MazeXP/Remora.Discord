@@ -1,5 +1,5 @@
-Title: Welcome!
----------------------
+Welcome!
+===============
 
 Hi, and welcome to the online documentation for Remora.Discord! Here, you'll 
 find everything you need to get started with the library - tutorials, API
@@ -20,9 +20,9 @@ own.
   * [Using Undocumented Features][6]
   * [Project README][5]
 
-[1]: guides/getting-started
-[2]: github-info/CONTRIBUTING
+[1]: guides/getting-started.md
+[2]: https://github.com/Nihlus/Remora.Discord/blob/master/.github/CONTRIBUTING.md
 [3]: https://www.github.com/Nihlus/Remora.Discord/issues
-[4]: api
-[5]: info/README
-[6]: guides/undocumented-features
+[4]: ../obj/api/Remora.Discord.API.yml
+[5]: https://github.com/Nihlus/Remora.Discord/blob/master/README.md
+[6]: guides/undocumented-features.md
