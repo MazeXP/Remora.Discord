@@ -20,6 +20,7 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Remora.Commands.Attributes;
@@ -135,5 +136,46 @@ public class InteractiveCommands : CommandGroup
         });
 
         return await _feedback.SendContextualEmbedAsync(embed, options, this.CancellationToken);
+    }
+
+    /// <summary>
+    /// Sends an embed with a persistent dropdown.
+    /// </summary>
+    /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
+    [Command("dummy")]
+    public async Task<IResult> SendDummyAsync()
+    {
+        var pages = new List<Embed>();
+        for (var i = 0; i < 10; ++i)
+        {
+            pages.Add(new Embed(Title: $"Page #{i + 1}", Description: $"This page has index {i}"));
+        }
+
+        var options = new FeedbackMessageOptions(MessageComponents: new IMessageComponent[]
+        {
+            new ActionRowComponent(new[]
+            {
+                new SelectMenuComponent
+                (
+                    "dummmy-dropdown",
+                    pages.Select((_, index) =>
+                    {
+                        return new SelectOption($"Page {index + 1}", index.ToString());
+                    }).ToArray(),
+                    "Page...",
+                    1,
+                    1
+                )
+            })
+        });
+
+        return await _interactiveMessages.SendInteractiveContextualEmbedWithPersistentDataAsync<IReadOnlyList<Embed>>
+        (
+            pages[0],
+            m => m.ID.ToString(),
+            _ => pages.ToArray(),
+            options,
+            ct: this.CancellationToken
+        );
     }
 }

@@ -130,7 +130,8 @@ public class Program
                         .Finish()
                     .AddInteractivity()
                     .AddPagination()
-                    .AddInteractiveEntity<ColourDropdownEntity>();
+                    .AddInteractiveEntity<ColourDropdownEntity>()
+                    .AddInteractiveEntity<DummyDropdownEntity>();
             }
         )
         .ConfigureLogging
