@@ -78,7 +78,7 @@ public interface IMessage : IPartialMessage
     /// <summary>
     /// Gets a list of mentioned users.
     /// </summary>
-    new IReadOnlyList<IUserMention> Mentions { get; }
+    new IReadOnlyList<IUser> Mentions { get; }
 
     /// <summary>
     /// Gets a list of mentioned roles.
@@ -208,7 +208,7 @@ public interface IMessage : IPartialMessage
     Optional<bool> IPartialMessage.MentionsEveryone => this.MentionsEveryone;
 
     /// <inheritdoc/>
-    Optional<IReadOnlyList<IUserMention>> IPartialMessage.Mentions => new(this.Mentions);
+    Optional<IReadOnlyList<IUser>> IPartialMessage.Mentions => new(this.Mentions);
 
     /// <inheritdoc/>
     Optional<IReadOnlyList<Snowflake>> IPartialMessage.MentionedRoles => new(this.MentionedRoles);

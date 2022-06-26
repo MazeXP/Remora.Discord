@@ -41,7 +41,7 @@ public record InviteCreate
     Optional<IUser> Inviter,
     TimeSpan MaxAge,
     int MaxUses,
-    Optional<IPartialUser> TargetUser,
+    Optional<IUser> TargetUser,
     Optional<InviteTarget> TargetType,
     Optional<IPartialApplication> TargetApplication,
     bool IsTemporary,

@@ -76,7 +76,7 @@ public interface IInviteCreate : IGatewayEvent
     /// <summary>
     /// Gets the target user for this invite.
     /// </summary>
-    Optional<IPartialUser> TargetUser { get; }
+    Optional<IUser> TargetUser { get; }
 
     /// <summary>
     /// Gets the embedded application this invite is for.

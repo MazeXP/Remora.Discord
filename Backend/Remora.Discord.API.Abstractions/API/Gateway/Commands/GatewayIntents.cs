@@ -51,6 +51,7 @@ public enum GatewayIntents
     ///     - THREAD_LIST_SYNC
     ///     - THREAD_MEMBER_UPDATE
     ///     - THREAD_MEMBERS_UPDATE
+    ///     - STAGE_INSTANCE_CREATE
     ///     - STAGE_INSTANCE_UPDATE
     ///     - STAGE_INSTANCE_DELETE
     /// </summary>
@@ -178,12 +179,8 @@ public enum GatewayIntents
     ///     - GUILD_SCHEDULED_EVENT_CREATE
     ///     - GUILD_SCHEDULED_EVENT_UPDATE
     ///     - GUILD_SCHEDULED_EVENT_DELETE
-    ///     - GUILD_SCHEDULED_EVENT_USER_ADD **
-    ///     - GUILD_SCHEDULED_EVENT_USER_REMOVE **
+    ///     - GUILD_SCHEDULED_EVENT_USER_ADD
+    ///     - GUILD_SCHEDULED_EVENT_USER_REMOVE
     /// </summary>
-    /// <remarks>
-    /// GUILD_SCHEDULED_EVENT_USER_ADD and GUILD_SCHEDULED_EVENT_USER_REMOVE are currently experimental and not
-    /// officially supported.
-    /// </remarks>
     GuildScheduledEvents = 1 << 16
 }

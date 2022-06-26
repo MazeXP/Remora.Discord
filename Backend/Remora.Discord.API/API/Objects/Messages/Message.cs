@@ -42,7 +42,7 @@ public record Message
     DateTimeOffset? EditedTimestamp,
     bool IsTTS,
     bool MentionsEveryone,
-    IReadOnlyList<IUserMention> Mentions,
+    IReadOnlyList<IUser> Mentions,
     IReadOnlyList<Snowflake> MentionedRoles,
     Optional<IReadOnlyList<IChannelMention>> MentionedChannels,
     IReadOnlyList<IAttachment> Attachments,

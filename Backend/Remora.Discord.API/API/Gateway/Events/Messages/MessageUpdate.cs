@@ -34,8 +34,6 @@ namespace Remora.Discord.API.Gateway.Events;
 [PublicAPI]
 public record MessageUpdate
 (
-    Optional<Snowflake> GuildID = default,
-    Optional<IPartialGuildMember> Member = default,
     Optional<Snowflake> ID = default,
     Optional<Snowflake> ChannelID = default,
     Optional<IUser> Author = default,
@@ -63,7 +61,9 @@ public record MessageUpdate
     Optional<IMessageInteraction> Interaction = default,
     Optional<IChannel> Thread = default,
     Optional<IReadOnlyList<IMessageComponent>> Components = default,
-    Optional<IReadOnlyList<IStickerItem>> StickerItems = default
+    Optional<IReadOnlyList<IStickerItem>> StickerItems = default,
+    Optional<Snowflake> GuildID = default,
+    Optional<IPartialGuildMember> Member = default
 ) : PartialMessage
 (
     ID,
@@ -74,7 +74,7 @@ public record MessageUpdate
     EditedTimestamp,
     IsTTS,
     MentionsEveryone,
-    Mentions,
+    Mentions.HasValue ? new(Mentions.Value) : default,
     MentionedRoles,
     MentionedChannels,
     Attachments,
@@ -94,4 +94,12 @@ public record MessageUpdate
     Thread,
     Components,
     StickerItems
-), IMessageUpdate;
+), IMessageUpdate
+{
+    /// <inheritdoc />
+    public new Optional<IReadOnlyList<IUserMention>> Mentions
+    {
+        get => base.Mentions.HasValue ? new((IReadOnlyList<IUserMention>)base.Mentions.Value) : default;
+        init => base.Mentions = value.HasValue ? new(value.Value) : default;
+    }
+}

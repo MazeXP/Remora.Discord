@@ -34,8 +34,6 @@ namespace Remora.Discord.API.Gateway.Events;
 [PublicAPI]
 public record MessageCreate
 (
-    Optional<Snowflake> GuildID,
-    Optional<IPartialGuildMember> Member,
     Snowflake ID,
     Snowflake ChannelID,
     IUser Author,
@@ -63,7 +61,9 @@ public record MessageCreate
     Optional<IMessageInteraction> Interaction = default,
     Optional<IChannel> Thread = default,
     Optional<IReadOnlyList<IMessageComponent>> Components = default,
-    Optional<IReadOnlyList<IStickerItem>> StickerItems = default
+    Optional<IReadOnlyList<IStickerItem>> StickerItems = default,
+    Optional<Snowflake> GuildID = default,
+    Optional<IPartialGuildMember> Member = default
 ) : Message
 (
     ID,
@@ -94,4 +94,12 @@ public record MessageCreate
     Thread,
     Components,
     StickerItems
-), IMessageCreate;
+), IMessageCreate
+{
+    /// <inheritdoc />
+    public new IReadOnlyList<IUserMention> Mentions
+    {
+        get => (IReadOnlyList<IUserMention>)base.Mentions;
+        init => base.Mentions = value;
+    }
+}

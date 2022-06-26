@@ -57,7 +57,7 @@ public interface IGuildMemberUpdate : IGatewayEvent
     /// <summary>
     /// Gets the member's guild avatar hash.
     /// </summary>
-    Optional<IImageHash?> Avatar { get; }
+    IImageHash? Avatar { get; }
 
     /// <summary>
     /// Gets the date when the user joined the guild.

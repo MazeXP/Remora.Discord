@@ -58,7 +58,7 @@ public interface IPartialMessage
     Optional<bool> MentionsEveryone { get; }
 
     /// <inheritdoc cref="IMessage.Mentions" />
-    Optional<IReadOnlyList<IUserMention>> Mentions { get; }
+    Optional<IReadOnlyList<IUser>> Mentions { get; }
 
     /// <inheritdoc cref="IMessage.MentionedRoles" />
     Optional<IReadOnlyList<Snowflake>> MentionedRoles { get; }
