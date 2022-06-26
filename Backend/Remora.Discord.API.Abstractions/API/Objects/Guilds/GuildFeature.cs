@@ -111,16 +111,6 @@ public enum GuildFeature
     RoleIcons,
 
     /// <summary>
-    /// The guild has access to the seven-day archival time for threads.
-    /// </summary>
-    SevenDayThreadArchive,
-
-    /// <summary>
-    /// The guild has access to the three-day archival time for threads.
-    /// </summary>
-    ThreeDayThreadArchive,
-
-    /// <summary>
     /// The guild has enabled ticketed events.
     /// </summary>
     TicketedEventsEnabled,

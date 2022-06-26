@@ -56,7 +56,7 @@ public interface IGuildWidget
     /// Gets "special" widget user objects with presence information (max 100).
     /// </summary>
     /// <remarks>
-    /// The Discord docs are extremely vague about what "special" means here. Your mileage may vary.
+    /// The user object fields <see cref="IPartialUser.ID"/>, <see cref="IPartialUser.Discriminator"/> and <see cref="IPartialUser.Avatar"/> are anonymized to prevent abuse.
     /// </remarks>
     IReadOnlyList<IPartialUser> Members { get; }
 

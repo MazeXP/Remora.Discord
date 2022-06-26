@@ -36,7 +36,6 @@ public record MessageCreate
 (
     Optional<Snowflake> GuildID,
     Optional<IPartialGuildMember> Member,
-    IReadOnlyList<IUserMention> Mentions,
     Snowflake ID,
     Snowflake ChannelID,
     IUser Author,
@@ -45,6 +44,7 @@ public record MessageCreate
     DateTimeOffset? EditedTimestamp,
     bool IsTTS,
     bool MentionsEveryone,
+    IReadOnlyList<IUserMention> Mentions,
     IReadOnlyList<Snowflake> MentionedRoles,
     Optional<IReadOnlyList<IChannelMention>> MentionedChannels,
     IReadOnlyList<IAttachment> Attachments,
@@ -74,6 +74,7 @@ public record MessageCreate
     EditedTimestamp,
     IsTTS,
     MentionsEveryone,
+    Mentions,
     MentionedRoles,
     MentionedChannels,
     Attachments,

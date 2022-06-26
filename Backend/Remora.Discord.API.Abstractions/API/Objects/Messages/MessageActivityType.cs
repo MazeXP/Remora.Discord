@@ -48,5 +48,5 @@ public enum MessageActivityType
     /// <summary>
     /// A request to join the activity.
     /// </summary>
-    JoinRequest = 4
+    JoinRequest = 5
 }

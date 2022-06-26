@@ -29,22 +29,12 @@ namespace Remora.Discord.API.Abstractions.Objects;
 /// Represents a sticker.
 /// </summary>
 [PublicAPI]
-public interface ISticker
+public interface ISticker : IStickerItem
 {
-    /// <summary>
-    /// Gets the ID of the sticker.
-    /// </summary>
-    Snowflake ID { get; }
-
     /// <summary>
     /// Gets the ID of the sticker pack.
     /// </summary>
     Optional<Snowflake> PackID { get; }
-
-    /// <summary>
-    /// Gets the name of the sticker.
-    /// </summary>
-    string Name { get; }
 
     /// <summary>
     /// Gets the description of the sticker.
@@ -61,11 +51,6 @@ public interface ISticker
     /// Gets the type of the sticker.
     /// </summary>
     StickerType Type { get; }
-
-    /// <summary>
-    /// Gets the format of the sticker.
-    /// </summary>
-    StickerFormatType FormatType { get; }
 
     /// <summary>
     /// Gets a value indicating whether the sticker is available.

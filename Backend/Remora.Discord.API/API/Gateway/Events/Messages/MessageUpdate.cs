@@ -36,7 +36,6 @@ public record MessageUpdate
 (
     Optional<Snowflake> GuildID = default,
     Optional<IPartialGuildMember> Member = default,
-    Optional<IReadOnlyList<IUserMention>> Mentions = default,
     Optional<Snowflake> ID = default,
     Optional<Snowflake> ChannelID = default,
     Optional<IUser> Author = default,
@@ -45,6 +44,7 @@ public record MessageUpdate
     Optional<DateTimeOffset?> EditedTimestamp = default,
     Optional<bool> IsTTS = default,
     Optional<bool> MentionsEveryone = default,
+    Optional<IReadOnlyList<IUserMention>> Mentions = default,
     Optional<IReadOnlyList<Snowflake>> MentionedRoles = default,
     Optional<IReadOnlyList<IChannelMention>> MentionedChannels = default,
     Optional<IReadOnlyList<IAttachment>> Attachments = default,
@@ -74,6 +74,7 @@ public record MessageUpdate
     EditedTimestamp,
     IsTTS,
     MentionsEveryone,
+    Mentions,
     MentionedRoles,
     MentionedChannels,
     Attachments,

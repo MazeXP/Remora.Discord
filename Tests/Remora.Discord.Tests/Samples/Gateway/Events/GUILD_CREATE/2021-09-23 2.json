@@ -347,7 +347,6 @@
       "INVITE_SPLASH",
       "MEMBER_VERIFICATION_GATE_ENABLED",
       "WELCOME_SCREEN_ENABLED",
-      "THREE_DAY_THREAD_ARCHIVE",
       "NEWS"
     ],
     "threads": [],
