@@ -25,7 +25,6 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using Remora.Discord.API.Abstractions.Gateway.Events;
 using Remora.Discord.API.Abstractions.Objects;
-using Remora.Discord.API.Objects;
 using Remora.Rest.Core;
 
 namespace Remora.Discord.API.Gateway.Events;
@@ -64,42 +63,4 @@ public record MessageUpdate
     Optional<IReadOnlyList<IStickerItem>> StickerItems = default,
     Optional<Snowflake> GuildID = default,
     Optional<IPartialGuildMember> Member = default
-) : PartialMessage
-(
-    ID,
-    ChannelID,
-    Author,
-    Content,
-    Timestamp,
-    EditedTimestamp,
-    IsTTS,
-    MentionsEveryone,
-    Mentions.HasValue ? new(Mentions.Value) : default,
-    MentionedRoles,
-    MentionedChannels,
-    Attachments,
-    Embeds,
-    Reactions,
-    Nonce,
-    IsPinned,
-    WebhookID,
-    Type,
-    Activity,
-    Application,
-    ApplicationID,
-    MessageReference,
-    Flags,
-    ReferencedMessage,
-    Interaction,
-    Thread,
-    Components,
-    StickerItems
-), IMessageUpdate
-{
-    /// <inheritdoc />
-    public new Optional<IReadOnlyList<IUserMention>> Mentions
-    {
-        get => base.Mentions.HasValue ? new((IReadOnlyList<IUserMention>)base.Mentions.Value) : default;
-        init => base.Mentions = value.HasValue ? new(value.Value) : default;
-    }
-}
+) : IMessageUpdate;

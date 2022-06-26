@@ -25,7 +25,6 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using Remora.Discord.API.Abstractions.Gateway.Events;
 using Remora.Discord.API.Abstractions.Objects;
-using Remora.Discord.API.Objects;
 using Remora.Rest.Core;
 
 namespace Remora.Discord.API.Gateway.Events;
@@ -64,42 +63,4 @@ public record MessageCreate
     Optional<IReadOnlyList<IStickerItem>> StickerItems = default,
     Optional<Snowflake> GuildID = default,
     Optional<IPartialGuildMember> Member = default
-) : Message
-(
-    ID,
-    ChannelID,
-    Author,
-    Content,
-    Timestamp,
-    EditedTimestamp,
-    IsTTS,
-    MentionsEveryone,
-    Mentions,
-    MentionedRoles,
-    MentionedChannels,
-    Attachments,
-    Embeds,
-    Reactions,
-    Nonce,
-    IsPinned,
-    WebhookID,
-    Type,
-    Activity,
-    Application,
-    ApplicationID,
-    MessageReference,
-    Flags,
-    ReferencedMessage,
-    Interaction,
-    Thread,
-    Components,
-    StickerItems
-), IMessageCreate
-{
-    /// <inheritdoc />
-    public new IReadOnlyList<IUserMention> Mentions
-    {
-        get => (IReadOnlyList<IUserMention>)base.Mentions;
-        init => base.Mentions = value;
-    }
-}
+) : IMessageCreate;

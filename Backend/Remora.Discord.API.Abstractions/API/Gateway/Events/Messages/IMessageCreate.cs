@@ -52,4 +52,7 @@ public interface IMessageCreate : IGatewayEvent, IMessage
 
     /// <inheritdoc/>
     IReadOnlyList<IUser> IMessage.Mentions => this.Mentions;
+
+    /// <inheritdoc/>
+    Optional<IReadOnlyList<IUser>> IPartialMessage.Mentions => new(this.Mentions);
 }
