@@ -3,6 +3,7 @@
   "s": 2,
   "op": 0,
   "d": {
+    "guild_scheduled_events": [],
     "premium_tier": 0,
     "max_members": 100000,
     "application_command_count": 4,

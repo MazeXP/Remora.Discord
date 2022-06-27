@@ -3,6 +3,9 @@
   "s": 2,
   "op": 0,
   "d": {
+    "threads": [],
+    "stage_instances": [],
+    "guild_scheduled_events": [],
     "joined_at": "1970-01-01T00:00:00.000000+00:00",
     "roles": [
       {

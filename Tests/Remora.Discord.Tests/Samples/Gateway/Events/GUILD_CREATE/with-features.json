@@ -3,6 +3,9 @@
   "s": 2,
   "op": 0,
   "d": {
+    "threads": [],
+    "stage_instances": [],
+    "guild_scheduled_events": [],
     "channels": [
       {
         "type": 0,
