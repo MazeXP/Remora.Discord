@@ -58,6 +58,6 @@
     },
     "dest": "output",
     "markdownEngineName": "markdig",
-    "template": ["default"]
+    "template": ["default", "tempates/discordfx"]
   }
 }
