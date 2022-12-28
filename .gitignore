@@ -594,8 +594,8 @@ tags
 
 # End of https://www.toptal.com/developers/gitignore/api/rider,dotnetcore,csharp,visualstudio,visualstudiocode,vim,emacs,eclipse
 
-# wyam
-docs/output/
-docs/wwwroot/
-docs/config.wyam.*
-docs/site/
+# Statiq
+docs/cache
+docs/temp
+docs/output
+docs/wwwroot

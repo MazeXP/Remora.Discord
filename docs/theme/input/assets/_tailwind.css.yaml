@@ -1,0 +1,2 @@
+# Exclude tailwind.css from output as TailwindCLI will process it as styles.css
+Excluded: true

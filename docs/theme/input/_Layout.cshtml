@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="@Context.GetLink("/assets/favicons/apple-touch-icon.png")">
+    <link rel="icon" type="image/png" sizes="32x32" href="@Context.GetLink("/assets/favicons/favicon-32x32.png")">
+    <link rel="icon" type="image/png" sizes="16x16" href="@Context.GetLink("/assets/favicons/favicon-16x16.png")">
+    <link rel="manifest" href="@Context.GetLink("/assets/favicons/site.webmanifest")">
+    <link rel="shortcut icon" type="image/png" href="@Context.GetLink("/assets/favicons/favicon.ico")"/>
+    <link rel="mask-icon" href="@Context.GetLink("/assets/favicons/safari-pinned-tab.svg")" color="#e9ecef">
+    <meta name="msapplication-config" content="@Context.GetLink("/assets/favicons/browserconfig.xml")" />
+    <meta name="msapplication-TileColor" content="#e9ecef">
+    <meta name="theme-color" content="#e9ecef">
+
+    <link href="@Context.GetLink("/assets/styles.css")" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Lunr search -->
+    @if (Context.GetBool(WebKeys.GenerateSearchIndex))
+    {
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pako@2.0.3/dist/pako_inflate.min.js"></script>
+        <script src="@(Context.GetLink(Context.GetPath(WebKeys.SearchScriptPath, "search.js")))"></script>
+    }
+
+    @{
+        string title = Document.ContainsKey(Keys.Title) ? $"Remora.Discord - {Document.GetString(Keys.Title)}" : "Remora.Discord";
+    }
+    <title>@title</title>
+    
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+</head>
+<body class="antialiased text-gray-800 dark:text-gray-200 bg-gray-100 dark:bg-gray-900 transition-colors min-h-full flex flex-col">
+    <header class="flex-none sticky top-0 z-50 py-2 md:py-4 text-sm font-medium bg-gray-300 dark:bg-gray-800 backdrop-blur ring-1 ring-opacity-5 ring-gray-900 dark:ring-gray-700">
+        <nav class="container flex flex-row mx-auto items-center">
+            <a class="flex flex-row items-center" href="@Context.GetLink("/")">
+                <svg class="w-auto h-10 md:h-12" viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;">
+                    <defs id="defs6">
+                        <clipPath id="clipPath16" clipPathUnits="userSpaceOnUse">
+                            <path id="path18" d="M 0,36 36,36 36,0 0,0 0,36 Z"/>
+                        </clipPath>
+                    </defs>
+                    <g transform="matrix(1.25,0,0,-1.25,0,45)" id="g10">
+                        <g id="g12">
+                            <g clip-path="url(#clipPath16)" id="g14">
+                                <g transform="translate(36,15)" id="g20">
+                                    <path id="path22" style="fill:#66757f;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-5 -3,-9 -11,-11 -7.062,-1.766 -21,0.934 -21,2 0,1.129 2.503,1.371 6.813,1.125 10.937,-0.625 13.749,3.857 11.999,5.25 C -16.25,-0.187 -19.625,-3 -25.25,-2.5 -32.218,-1.881 -36,3.528 -36,5 c 0,2 11.716,8 20,8 C -7.716,13 0,8.75 0,0"/>
+                                </g>
+                                <g transform="translate(15,23.5)" id="g24">
+                                    <path id="path26" style="fill:#292f33;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 C 0,-0.829 -0.671,-1.5 -1.5,-1.5 -2.329,-1.5 -3,-0.829 -3,0 -3,0.829 -2.329,0.5 -1.5,0.5 -0.671,0.5 0,0.829 0,0"/>
+                                </g>
+                                <g transform="translate(14,27)" id="g28">
+                                    <path id="path30" style="fill:#66757f;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 C 2,5 5.291,9 7.958,9 10.625,9 7,7 12,-1 17,-9 0,0 0,0"/>
+                                </g>
+                                <g transform="translate(3,6)" id="g32">
+                                    <path id="path34" style="fill:#66757f;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 C 0,4 -1.04,6 0.146,6 1.331,6 6.157,1.969 6.157,-0.24 6.157,-2.449 1.331,-6 0.146,-6 -1.04,-6 0,-4 0,0"/>
+                                </g>
+                                <g transform="translate(26.9209,13.5)" id="g36">
+                                    <path id="path38" style="fill:#292f33;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 7.996,-7.5 C 7.996,-7.5 4.754,-9.333 0,0"/>
+                                </g>
+                                <g transform="translate(26.9209,13.5)" id="g40">
+                                    <path id="path42" style="fill:#66757f;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 5.537,3.833 c 0,0 3.875,-9.916 2.459,-11.333 C 5.413,-6.5 0,0 0,0"/>
+                                </g>
+                                <g transform="translate(9,15.6934)" id="g44">
+                                    <path id="path46" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-0.493 -0.508,-2.673 -1,-2.673 -0.492,0 -1,2.18 -1,2.673 l 0,1.779 c 0,0.493 0.508,-0.888 1,-0.888 0.492,0 1,1.381 1,0.888 L 0,0 Z"/>
+                                </g>
+                                <g transform="translate(12,15.6934)" id="g48">
+                                    <path id="path50" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-0.493 -0.508,-2.673 -1,-2.673 -0.492,0 -1,2.18 -1,2.673 l 0,1.779 c 0,0.493 0.508,-0.888 1,-0.888 0.492,0 1,1.381 1,0.888 L 0,0 Z"/>
+                                </g>
+                                <g transform="translate(15,16.6934)" id="g52">
+                                    <path id="path54" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-0.493 -0.508,-2.673 -1,-2.673 -0.492,0 -1,2.18 -1,2.673 l 0,1.779 c 0,0.493 0.508,-0.888 1,-0.888 0.492,0 1,1.381 1,0.888 L 0,0 Z"/>
+                                </g>
+                                <g transform="translate(18,16.6934)" id="g56">
+                                    <path id="path58" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-0.493 -0.508,-2.673 -1,-2.673 -0.492,0 -1,2.18 -1,2.673 l 0,1.779 c 0,0.493 0.508,-0.888 1,-0.888 0.492,0 1,1.381 1,0.888 L 0,0 Z"/>
+                                </g>
+                                <g transform="translate(6,16)" id="g60">
+                                    <path id="path62" style="fill:#66757f;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 7.001,1 13,1 13,3 0,3 0,0 Z"/>
+                                </g>
+                                <g transform="translate(18.4165,16.833)" id="g64">
+                                    <path id="path66" style="fill:#292f33;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -4,2.083 -13.385,0.011 -14.917,-1.513 0.47,-0.36 0.988,-0.707 1.547,-1.028 C -7.261,0.74 0.712,-0.372 0,0"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <span class="text-lg md:text-2xl font-light ml-2 font-mono">Remora.Discord</span>
+            </a>
+
+            <div class="ml-auto flex flex-row">
+                <div>
+                    <button title="Toggle Dark Mode" class="mr-4 text-gray-900 dark:text-gray-300 stroke-1 opacity-80" onclick="toggleDarkMode()">
+                        <svg class="h-6 w-6" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12,18V6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,15.31L23.31,12L20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <a class="flex flex-row items-center text-gray-900 stroke-gray-700 fill-gray-900  dark:text-gray-200 dark:stroke-gray-500 dark:fill-gray-300" href="https://github.com/Remora/Remora.Discord" target="_blank">
+                        <svg class="h-6 w-6 mr-1" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                        </svg>
+                        <span class="hidden sm:block">GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto pt-8 w-full">
+        @RenderBody()
+    </main>
+    
+    <script>
+        function toggleDarkMode()
+        {
+            if (document.documentElement.classList.contains('dark')) {
+                localStorage.theme = 'light';
+                document.documentElement.classList.remove('dark');
+            } else {
+                localStorage.theme = 'dark';
+                document.documentElement.classList.add('dark');
+            }
+        }
+    </script>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SkmBfuA2hqjzEVpmnMt/LINrjop3GKWqsuLSSB3e7iBmYK7JuWw4ldmmxwD9mdm2IRTTi0OxSAfEGvgEi0i2Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

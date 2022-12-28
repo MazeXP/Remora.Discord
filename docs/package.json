@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "tailwind:preview": "tailwindcss -i ./theme/input/assets/tailwind.css -o ./output/assets/styles.css --watch",
+    "tailwind:build": "tailwindcss -i ./theme/input/assets/tailwind.css -o ./output/assets/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

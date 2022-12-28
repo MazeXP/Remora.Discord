@@ -1,0 +1,20 @@
+<Project Sdk="Remora.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <IsPackable>false</IsPackable>
+
+        <!--suppress MsbuildTargetFrameworkTagInspection -->
+        <TargetFramework>$(ExecutableFrameworks)</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Description>
+            This tool assists in generating the documentation site.
+        </Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Statiq.Docs" />
+    </ItemGroup>
+</Project>
