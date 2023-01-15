@@ -240,6 +240,7 @@ article li > ul
 #versionbar .nav > li.filtered > .expand-stub::before {
     transform: none;
 }
+
 #versionbar .nav > li > .expand-stub::before,
 #versionbar .nav > li.active > .expand-stub::before {
     content: " ";

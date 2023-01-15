@@ -35,33 +35,38 @@ function toggleMenu() {
         const versionBasePath = versionsPath.substring(0, versionsPath.lastIndexOf("/"));
         const currentVersion = $("meta[property='docfx\\:version']").attr("content");
         
-        $.get(versionsPath, function (versions) {
-            const versionBar = $("#versionbar");
-            versionBar.empty();
+        $.ajax({
+            url: versionsPath,
+            dataType: "json",
+            cache: false,
+            success: function (versions) {
+                const versionBar = $("#versionbar");
+                versionBar.empty();
 
-            const versionBarElement = $('<ul class="nav level2"></ul>');
-            versionBarElement.append(function() {
-                const list = $(`<ul class="nav level3" />`);
-                
-                for (var version of versions.filter(x => x !== currentVersion)) {
-                    list.append(`<li><a class="sidebar-item" href="${versionBasePath}/${version}">${version}</a></li>`);
-                }
+                const versionBarElement = $('<ul class="nav level2"></ul>');
+                versionBarElement.append(function() {
+                    const list = $(`<ul class="nav level3" />`);
+                    
+                    for (var version of versions.filter(x => x !== currentVersion)) {
+                        list.append(`<li><a class="sidebar-item" href="${versionBasePath}/${version}">${version}</a></li>`);
+                    }
 
-                return $(`<li>
-                              <span class="expand-stub"></span>
-                              <a class="active sidebar-item">Version: <b>${currentVersion}</b></a>
-                          </li>`)
-                       .append(list);
-            });
+                    return $(`<li>
+                                <span class="expand-stub"></span>
+                                <a class="active sidebar-item">Version: <b>${currentVersion}</b></a>
+                            </li>`)
+                        .append(list);
+                });
 
-            versionBar.append(versionBarElement);
+                versionBar.append(versionBarElement);
 
-            $("#versionbar .nav > li > .expand-stub").click(function (e) {
-                $(e.target).parent().toggleClass("in");
-            });
-            $("#versionbar .nav > li > .expand-stub + a:not([href])").click(function (e) {
-                $(e.target).parent().toggleClass("in");
-            });
+                $("#versionbar .nav > li > .expand-stub").click(function (e) {
+                    $(e.target).parent().toggleClass("in");
+                });
+                $("#versionbar .nav > li > .expand-stub + a:not([href])").click(function (e) {
+                    $(e.target).parent().toggleClass("in");
+                });
+            }
         });
     }
 
